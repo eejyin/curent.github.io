@@ -13,10 +13,10 @@
   class: icon-linkedin
   title: "CURENT LTB"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+# - name: Mixcloud
+#   url: http://www.mixcloud.com/phlow/
+#   class: icon-cloud
+#   title: "Mixe, was sonst?"
 
 # - name: Facebook
 #   url: http://www.facebook.com/
