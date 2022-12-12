@@ -5,10 +5,15 @@
   class: "network-entypo"
   title: "CURENT"
 
-- name: "UTK Enliten Lab"
+- name: "Enliten Lab"
   url: "https://enliten.utk.edu"
   class: "services-newsletter"
-  title: "UTK Enliten Lab"
+  title: "Enliten Lab"
+
+- name: "Sustainable Energy Systems Laboratory (SENSL)"
+  url: "https://cui.eecps.com/group/"
+  class: "services-newsletter"
+  title: "Sustainable Energy Systems Laboratory (SENSL)"
 
 # - name: "Images by Unsplash"
 #   url: "http://unsplash.com/"
