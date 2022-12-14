@@ -21,9 +21,6 @@
 - title: Showcase
   url: "/showcase/"
   side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
 
 - title: Team
   url: "/team/"
