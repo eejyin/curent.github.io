@@ -12,7 +12,7 @@
   dropdown:
   - title: "Framework"
     # url: "/andes/grid/"
-    url: "/andes/framework/"
+    url: "/andes/fm/"
 
 - title: "AGVis"
   url: "/headers/"
