@@ -10,7 +10,7 @@
   url: "/andes/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
+  - title: "Framework"
     url: "/andes/framework/"
 
 - title: "AGVis"

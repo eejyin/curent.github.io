@@ -1,11 +1,11 @@
 ---
 layout: page
 show_meta: false
-title: "Style your content!"
-subheadline: "Layouts of Feeling Responsive"
+title: "ANDES"
+subheadline: "Python Software for Symbolic Power System Modeling and Numerical Analysis"
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/design/"
+permalink: "/andes/"
 ---
 <ul>
     {% for post in site.categories.design %}
