@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "ANDES"
-subheadline: "Python Software for Symbolic Power System Modeling and Numerical Analysis"
+subheadline: "Power System Modeling and Numerical Analysis"
 header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/andes/"
