@@ -7,29 +7,11 @@
   side: left
 
 - title: "ANDES"
-  url: "/design/"
+  url: "/andes/"
   side: left
   dropdown:
   - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
+    url: "/andes/framework/"
 
 - title: "AGVis"
   url: "/headers/"
@@ -66,7 +48,7 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: Showcase
+- title: Team
   url: "/blog/"
   side: left
   dropdown:
