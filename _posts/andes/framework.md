@@ -6,7 +6,7 @@ teaser: "Modeling DAE-based devices is as simple as describing the mathematical 
 breadcrumb: true
 categories:
     - design
-permalink: /andes/framework/
+permalink: "/andes/framework/"
 header:
     image_fullwidth: "unsplash_brooklyn-bridge_header.jpg"
 image:
