@@ -11,8 +11,8 @@
   side: left
   dropdown:
   - title: "Framework"
-    url: "/andes/grid/"
-    # url: "/andes/framework/"
+    # url: "/andes/grid/"
+    url: "/andes/framework/"
 
 - title: "AGVis"
   url: "/headers/"
