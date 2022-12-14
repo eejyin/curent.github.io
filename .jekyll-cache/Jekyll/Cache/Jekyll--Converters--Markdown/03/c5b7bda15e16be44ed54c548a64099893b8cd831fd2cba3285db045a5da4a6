@@ -1,0 +1,20 @@
+I"Ò<ul>
+    
+    <li><a href="http://localhost:4000/design/no-header/">No Header</a></li>
+    
+    <li><a href="http://localhost:4000/design/no-header-but-image/">No Header but Article Image</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-with-text/">Header With Text</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-logo-only/">Header With Logo Only</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-image-color/">Header Image With Background Color</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-full-width-image/">Header with a Full-Width-Image</a></li>
+    
+    <li><a href="http://localhost:4000/design/header-image-pattern/">Header Image With Pattern</a></li>
+    
+</ul>
+
+<p>This software could be of interest to you if you are working on DAE modeling, simulation, and control for power systems. It has features that may be useful if you are applying deep (reinforcement) learning to such systems.</p>
+:ET

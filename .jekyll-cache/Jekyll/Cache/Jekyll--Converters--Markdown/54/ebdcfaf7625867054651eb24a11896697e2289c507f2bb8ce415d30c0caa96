@@ -1,0 +1,17 @@
+I"�<h1 id="overview">Overview</h1>
+
+<p>DiME is a data exchange environment.</p>
+
+<h2 id="features">Features</h2>
+
+<p>Enable <strong><em>high-concurrency</em></strong>, <strong><em>high-volume</em></strong>, and <strong><em>real-time</em></strong> data exchange
+Support <strong><em>multiple</em></strong> programming languages</p>
+
+<h2 id="design-philosophy">Design Philosophy</h2>
+
+<p>shared workspacew</p>
+
+<h1 id="citing-dime">Citing DiME</h1>
+
+<p>Parsly, Nicholas, et al. “DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation.”** <em>**arXiv preprint arXiv:2211.11990</em> (2022).</p>
+:ET
