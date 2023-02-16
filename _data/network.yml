@@ -15,6 +15,11 @@
   class: "network-entypo"
   title: "Sustainable Energy Systems Lab (SENSL)"
 
+- name: "Open-source projects for Power System Analysis"
+  url: "https://github.com/jinningwang/best-of-ps"
+  class: "network-entypo"
+  title: "Open-source projects for Power System Analysis"
+
 # - name: "Images by Unsplash"
 #   url: "http://unsplash.com/"
 #   class: "rss-link"
