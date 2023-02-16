@@ -5,15 +5,13 @@ The web is using the Jekyll Theme *Feeling Responsive*.
 The web is NOT hosting publicly right now.
 
 ## Maintenance
-
-### Deploy update
 The update should be made and tested on branch ``develop`` first, and then deployed to branch ``master`` as follow:
 
 1. Make sure the branch ``develop`` is update to the branch ``master``
 
 2. Update the contents in the branch ``develop``
 
-3. Run your Jekyll site locally on branch ``develop``:
+3. Run your Jekyll site locally on branch ``develop``
 ```
 bundle exec jekyll serve
 ```
