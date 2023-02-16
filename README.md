@@ -24,4 +24,5 @@ bundle exec jekyll serve
 
 ## Related resources:
 - [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+- [Feeling Responsive Documentation](https://phlow.github.io/feeling-responsive/documentation/)
 - [Feeling Responsive](http://phlow.github.io/feeling-responsive/)
