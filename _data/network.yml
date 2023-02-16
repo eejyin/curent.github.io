@@ -7,13 +7,13 @@
 
 - name: "Enliten Lab"
   url: "https://enliten.utk.edu"
-  class: "services-newsletter"
+  class: "network-entypo"
   title: "Enliten Lab"
 
-- name: "Sustainable Energy Systems Laboratory (SENSL)"
+- name: "Sustainable Energy Systems Lab (SENSL)"
   url: "https://cui.eecps.com/group/"
-  class: "services-newsletter"
-  title: "Sustainable Energy Systems Laboratory (SENSL)"
+  class: "network-entypo"
+  title: "Sustainable Energy Systems Lab (SENSL)"
 
 # - name: "Images by Unsplash"
 #   url: "http://unsplash.com/"
