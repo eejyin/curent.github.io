@@ -131,21 +131,6 @@
 
             
             
-              <li><a  href="http://localhost:4000/getting-started/">Getting Started</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
               <li><a  href="http://localhost:4000/andes/">ANDES</a></li>
               <li class="divider"></li>
 
@@ -231,14 +216,6 @@
       
 
       <ul class="right">
-        
-
-              
-
-
-
-          
-          
         
 
               
