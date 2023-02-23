@@ -27,9 +27,8 @@ Nicholas Parsly: Development of DiME and AGVis
 
 [Fangxing Li](https://web.eecs.utk.edu/~fli6/)
 
-[Joe Chow](https://sites.ecse.rpi.edu/~chowj/)
-
 ## Affiliation
+
 Hantao Cui is an assistant professor with the School of Electrical and Computer Engineering at Oklahoma State University.
 
 Jinning Wang and Nicholas Parsly are graduate students with the Department of Electrical Engineering and Computer Science at the University of Tennessee, Knoxville.
@@ -43,5 +42,3 @@ Xin Fang is an assistant professor with the Department of Electrical and Compute
 Kevin Tomsovic is the CTI Professor and Director of CURENT at the University of Tennessee, Knoxville.
 
 Fangxing Li is the James W. McConnell Professor at the University of Tennessee, Knoxville.
-
-Joe Chow is an Institute Professor at Rensselaer Polytechnic Institute.
