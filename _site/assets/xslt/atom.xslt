@@ -191,17 +191,11 @@
 
             
             
-              <li><a  href="http://localhost:4000/team/">Team</a></li>
+              <li><a  href="http://localhost:4000/about/">About</a></li>
               <li class="divider"></li>
 
             
             
-          
-        
-
-              
-
-          
           
         
 
@@ -276,22 +270,6 @@
             
               <li class="divider"></li>
               <li><a  href="http://localhost:4000/search/">Search</a></li>
-
-            
-            
-          
-        
-
-              
-
-
-
-          
-          
-            
-            
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
