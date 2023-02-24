@@ -1,44 +1,52 @@
 ---
 layout: page
 show_meta: false
-title: "Team"
-subheadline: "Team of CURENT LTB"
+title: "About us"
+subheadline: ""
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/team/"
+permalink: "/about/"
 ---
-## Developer
+## Leader team
 
-[Hantao Cui](https://cui.eecps.com/): Dvelopment and maintence of ANDES, maintence of LTB
+[Fangxing Li](https://web.eecs.utk.edu/~fli6/): Leader of the CURENT LTB project
 
-[Jinning Wang](https://jinningwang.github.io/): Model development and maintence of ANDES, maintence of LTB
+[Kevin Tomsovic](http://web.eecs.utk.edu/~ktomsovi/): Co-leader the CURENT LTB project
+
+[Jow Chow](https://sites.ecse.rpi.edu/~chowj/): Co-leader the CURENT LTB project
+
+[Ali Abur](http://www1.ece.neu.edu/~abur/#__utma=72955916.608232388.1677204155.1677204156.1677204156.1&__utmb=72955916.1.10.1677204156&__utmc=72955916&__utmx=-&__utmz=72955916.1677204156.1.1.utmcsr=bing|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=147626417): Co-leader the CURENT LTB project
+
+[Hantao Cui](https://cui.eecps.com/): Chief Technologist of the CURENT LTB and the author of LTB ANDES
+
+## Development team
+
+[Jinning Wang](https://jinningwang.github.io/): Model development and maintence of LTB ANDES, maintence of LTB
 
 Qiwei Zhang: Maintence of LTB
 
-Nick West: Development of DiME and AGVis
+Nick West: Development of LTB DiME and LTB AGVis
 
-Nicholas Parsly: Development of DiME and AGVis
+Nicholas Parsly: Development of LTB DiME and LTB AGVis
 
-[Xin Fang](https://sites.google.com/view/drxinfang/home): Model development and maintence of ANDES
-
-## Advisory Board
-
-[Kevin Tomsovic](http://web.eecs.utk.edu/~ktomsovi/)
-
-[Fangxing Li](https://web.eecs.utk.edu/~fli6/)
+[Xin Fang](https://sites.google.com/view/drxinfang/home): Model development and maintence of LTB ANDES
 
 ## Affiliation
 
-Hantao Cui is an assistant professor with the School of Electrical and Computer Engineering at Oklahoma State University.
+Dr. Fangxing Li is the James W. McConnell Professor at the University of Tennessee, Knoxville (UTK).
 
-Jinning Wang and Nicholas Parsly are graduate students with the Department of Electrical Engineering and Computer Science at the University of Tennessee, Knoxville.
+Dr. Kevin Tomsovic is the CTI Professor and Director of CURENT at the UTK.
 
-Qiwei Zhang is a research scientist with Johns Hopkins University.
+Dr. Jow Chow is a distinguished electrical engineering professor and researcher at Rensselaer Polytechnic Institute.
 
-Nick West is a system engineer with Tucson Embedded Systems.
+Dr. Ali Abur is an accomplished electrical engineering professor and researcher at Northeastern University.
 
-Xin Fang is an assistant professor with the Department of Electrical and Computer at Mississippi State University.
+Dr. Hantao Cui is an assistant professor with the School of Electrical and Computer Engineering at Oklahoma State University.
 
-Kevin Tomsovic is the CTI Professor and Director of CURENT at the University of Tennessee, Knoxville.
+Jinning Wang and Nicholas Parsly are graduate research assistants at UTK.
 
-Fangxing Li is the James W. McConnell Professor at the University of Tennessee, Knoxville.
+Dr. Qiwei Zhang is a research scientist with Johns Hopkins University.
+
+Nick West is a system engineer with Tucson Embedded Systems, and he used to be a graduate research assistant with the .
+
+Dr. Xin Fang is an assistant professor with the Department of Electrical and Computer at Mississippi State University.
