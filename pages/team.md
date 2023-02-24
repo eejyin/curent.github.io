@@ -15,7 +15,7 @@ permalink: "/about/"
 
 [Jow Chow](https://sites.ecse.rpi.edu/~chowj/): Co-leader the CURENT LTB project
 
-[Ali Abur](http://www1.ece.neu.edu/~abur/#__utma=72955916.608232388.1677204155.1677204156.1677204156.1&__utmb=72955916.1.10.1677204156&__utmc=72955916&__utmx=-&__utmz=72955916.1677204156.1.1.utmcsr=bing|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=147626417): Co-leader the CURENT LTB project
+[Ali Abur](https://coe.northeastern.edu/people/abur-ali/): Co-leader the CURENT LTB project
 
 [Hantao Cui](https://cui.eecps.com/): Chief Technologist of the CURENT LTB and the author of LTB ANDES
 
