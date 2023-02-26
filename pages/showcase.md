@@ -3,8 +3,6 @@ layout: page
 show_meta: false
 title: "Showcase of projects with LTB support"
 subheadline: "Power your research by LTB"
-header:
-   image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/showcase/"
 ---
 ## Disturbance Propagation in Power Grids With High Converter Penetration

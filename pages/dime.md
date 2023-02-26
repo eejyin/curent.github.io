@@ -3,8 +3,6 @@ layout: page
 show_meta: false
 title: "DiME"
 subheadline: "Distributed Messaging Environment"
-header:
-   image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/dime/"
 ---
 # Overview

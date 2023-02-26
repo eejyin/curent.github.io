@@ -3,8 +3,6 @@ layout: page
 show_meta: false
 title: "ANDES"
 subheadline: "Power System Modeling and Numerical Analysis"
-header:
-   image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/andes/"
 ---
 # Overview
@@ -14,7 +12,6 @@ ANDES is an open-source Python library for power system modeling, computation, a
 ANDES is the core simulation engine for the CURENT Largescale Testbed (LTB). More information about CURENT LTB can be found at the [LTB Repository](https://github.com/CURENT/ltb2).
 
 # Features
-
 
 # Design Philosophy
 

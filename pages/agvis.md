@@ -3,8 +3,6 @@ layout: page
 show_meta: false
 title: "AGVis"
 subheadline: "Geovisualization for Power Grid"
-header:
-   image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/agvis/"
 ---
 # Overview
