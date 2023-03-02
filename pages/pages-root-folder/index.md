@@ -6,20 +6,19 @@
 #
 layout: frontpage
 widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  title: "Getting started"
+  url: 'https://ltb.readthedocs.io/en/latest/'
+  text: 'Find out the User Guide, Examples, and Demonstrations.'
+# TODO
 widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
+  title: "YouTube"
+  url: 'https://www.youtube.com/channel/UCGJLH2w4Nb2EyN_9wRgRBug'
+  text: 'Find seminars, presentations, and tutorials of LTB.'
   video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
+  title: "Code Repository"
+  url: 'https://github.com/CURENT/ltb'
+  text: 'LTB is free and licensed under a GP:-3.0 License.'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -32,7 +31,7 @@ widget3:
 #
 callforaction:
   url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
+  text: Documentation
   style: alert
 permalink: /index.html
 #
@@ -41,9 +40,3 @@ permalink: /index.html
 #
 homepage: true
 ---
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">×</a>
-</div>
