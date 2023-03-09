@@ -4,6 +4,7 @@ show_meta: false
 title: "ANDES"
 subheadline: "Power System Modeling and Numerical Analysis"
 permalink: "/andes/"
+header: no
 ---
 # Overview
 

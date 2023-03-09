@@ -4,6 +4,7 @@ show_meta: false
 title: "AGVis"
 subheadline: "Geovisualization for Power Grid"
 permalink: "/agvis/"
+header: no
 ---
 # Overview
 

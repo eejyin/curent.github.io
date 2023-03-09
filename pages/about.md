@@ -4,6 +4,7 @@ show_meta: false
 title: "About us"
 subheadline: ""
 permalink: "/about/"
+header: no
 ---
 ## History
 

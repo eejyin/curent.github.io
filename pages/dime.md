@@ -4,6 +4,7 @@ show_meta: false
 title: "DiME"
 subheadline: "Distributed Messaging Environment"
 permalink: "/dime/"
+header: no
 ---
 # Overview
 
