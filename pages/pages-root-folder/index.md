@@ -14,11 +14,10 @@ widget2:
   title: "YouTube"
   url: 'https://www.youtube.com/channel/UCGJLH2w4Nb2EyN_9wRgRBug'
   text: 'Find seminars, presentations, and tutorials of LTB.'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
   title: "Code Repository"
   url: 'https://github.com/CURENT/ltb'
-  text: 'LTB is free and licensed under a GP:-3.0 License.'
+  text: 'LTB is free and licensed under a GPL-3.0 License.'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -30,7 +29,7 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
+  url: https://ltb.readthedocs.io/en/latest/
   text: Documentation
   style: alert
 permalink: /index.html
