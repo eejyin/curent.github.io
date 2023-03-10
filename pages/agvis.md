@@ -17,7 +17,3 @@ Base
 MultiLayer
 
 ## Design Philosophy
-
-# Citing AGVis
-
-Parsly, Nicholas, et al. "DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation."** ***arXiv preprint arXiv:2211.11990* (2022).
