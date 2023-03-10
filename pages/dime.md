@@ -6,19 +6,10 @@ subheadline: "Distributed Messaging Environment"
 permalink: "/dime/"
 header: no
 ---
-# Overview
 
-DiME is a data exchange environment.
+DiME is a data exchange environment for enabling high-concurrency, high-volume real-time data exchange in ***large-scale real-time*** power system simulations. Using a shared workspace, DiME allows multiple clients in different programming languages.
 
-## Features
+A component diagram of the interactions between ANDES, DiME, and AGVis
+![NA system](../images/case/dime.png)
 
-Enable ***high-concurrency***, ***high-volume***, and ***real-time*** data exchange
-Support ***multiple*** programming languages
-
-## Design Philosophy
-
-shared workspacew
-
-# Citing DiME
-
-Parsly, Nicholas, et al. "DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation."** ***arXiv preprint arXiv:2211.11990* (2022).
+Although DiME is primarily meant to be used as a messaging environment for distributed computing, it also has uses as a simple way to pass data between programs of different languages. This is best shown when running base AGVis with ANDES. When they start, AGVis and ANDEs both connect to a DiME server if one is available. Then, as shown in the figure, DiME acts as an intermediary between them. ANDES sends data to the group that AGVis has joined, and AGVis waits until data is sent to it. Then AGVis animates the simulation based on the data it receives.

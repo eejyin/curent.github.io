@@ -6,18 +6,9 @@ subheadline: "Geovisualization for Power Grid"
 permalink: "/agvis/"
 header: no
 ---
-# Overview
-
 AGVis is a geovisualization tool that facilitates the visualization of ***large-scale real-time*** power system simulation.
 
-## Features
+It is developed to enable geographical interpretation of power system simulation results. Further, the enhanced AGVis allows not only for real-time visualization for data coming from ANDES, but also for independent use with user-defined data.
 
-Base
-
-MultiLayer
-
-## Design Philosophy
-
-# Citing AGVis
-
-Parsly, Nicholas, et al. "DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation."** ***arXiv preprint arXiv:2211.11990* (2022).
+AGVis visualizing the entire North America system
+![NA system](../images/case/agvis.png)
