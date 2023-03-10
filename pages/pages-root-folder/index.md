@@ -4,12 +4,12 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: frontpage
+layout: home
+
 widget1:
   title: "Getting started"
   url: 'https://ltb.readthedocs.io/en/latest/'
   text: 'Find out the User Guide, Examples, and Demonstrations.'
-# TODO
 widget2:
   title: "YouTube"
   url: 'https://www.youtube.com/channel/UCGJLH2w4Nb2EyN_9wRgRBug'
