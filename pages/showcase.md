@@ -24,15 +24,6 @@ A versatile and high-performance reinforcement learning environment for power sy
 
 H. Cui and Y. Zhang, "Andes_gym: A Versatile Environment for Deep Reinforcement Learning in Power Systems," 2022 IEEE Power & Energy Society General Meeting (PESGM), 2022, pp. 01-05, doi: 10.1109/PESGM48719.2022.9916967.
 
-## Philosophy of LTB
-
-The philosophy of LTB has been introduced in several publications.
-
-F. Li, K. Tomsovic and H. Cui, "A Large-Scale Testbed as a Virtual Power Grid: For Closed-Loop Controls in Research and Testing," in IEEE Power and Energy Magazine, vol. 18, no. 2, pp. 60-68, March-April 2020, doi: 10.1109/MPE.2019.2959054.
-
-H. Cui, F. Li and K. Tomsovic, "Hybrid Symbolic-Numeric Framework for Power System Modeling and Analysis," in IEEE Transactions on Power Systems, vol. 36, no. 2, pp. 1373-1384, March 2021, doi: 10.1109/TPWRS.2020.3017019.
-
-Parsly, Nicholas, Jinning Wang, Nick West, Qiwei Zhang, Hantao Cui, and Fangxing Li. "DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation." doi: *arXiv preprint arXiv:2211.11990* (2022).
 
 ## Part of Publications with LTB support
 
