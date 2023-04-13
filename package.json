@@ -9,6 +9,5 @@
   "author": "Jinning Wang",
   "license": "MIT",
   "dependencies": {
-    "jekyll": "^4.2.1"
   }
 }
