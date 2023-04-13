@@ -1,0 +1,20 @@
+{
+    "name": "LTB Website",
+    "version": "1.0.0",
+    "description": "LTb website",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"No tests yet\""
+    },
+    "author": "Jinning Wang",
+    "license": "MIT",
+    "dependencies": {
+        "jekyll": "^4.2.0",
+        "jekyll-paginate": "^1.1.0",
+        "jekyll-sitemap": "^1.4.0",
+        "jekyll-feed": "^0.13.0",
+        "jekyll-seo-tag": "^2.7.1"
+    }
+  }
+  
