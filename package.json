@@ -8,5 +8,7 @@
   },
   "author": "Jinning Wang",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "jekyll": "^4.2.1"
+  }
 }
