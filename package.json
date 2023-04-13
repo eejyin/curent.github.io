@@ -4,8 +4,7 @@
   "description": "LTb website",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"No tests yet\""
+    "build": "bundle exec jekyll build"
   },
   "author": "Jinning Wang",
   "license": "MIT",
