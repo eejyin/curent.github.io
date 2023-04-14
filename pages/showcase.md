@@ -8,7 +8,7 @@ header: no
 ---
 ## Disturbance Propagation in Power Grids With High Converter Penetration
 
- Analytical studies based on continuum models for the 2-D power systems with synchronous generators and constant-power grid-following (GFL) converters.
+Analytical studies based on continuum models for the 2-D power systems with synchronous generators and constant-power grid-following (GFL) converters.
 
 H. Cui et al., "Disturbance Propagation in Power Grids With High Converter Penetration," in Proceedings of the IEEE, doi: 10.1109/JPROC.2022.3173813.
 
@@ -28,6 +28,8 @@ H. Cui and Y. Zhang, "Andes_gym: A Versatile Environment for Deep Reinforcement 
 ## Part of Publications with LTB support
 
 Y. Liu et al., "Transmission-Distribution Dynamic Co-simulation of Electric Vehicles Providing Grid Frequency Response," 2022 IEEE Power & Energy Society General Meeting (PESGM), 2022, pp. 1-5, doi: 10.1109/PESGM48719.2022.9917027.
+
+Y. Zhang et al., "Encoding Frequency Constraints in Preventive Unit Commitment Using Deep Learning With Region-of-Interest Active Sampling," in IEEE Transactions on Power Systems, vol. 37, no. 3, pp. 1942-1955, May 2022, doi: 10.1109/TPWRS.2021.3110881.
 
 H. Cui, F. Li and X. Fang, "Effective Parallelism for Equation and Jacobian Evaluation in Large-Scale Power Flow Calculation," in IEEE Transactions on Power Systems, vol. 36, no. 5, pp. 4872-4875, Sept. 2021, doi: 10.1109/TPWRS.2021.3073591.
 
