@@ -17,6 +17,9 @@
 - title: Showcase
   url: "/showcase/"
   side: left
+  dropdown:
+  - title: "Publications"
+    url: "/showcase/publications/"
 
 - title: About
   url: "/about/"
