@@ -1,6 +1,6 @@
 # CURENT LTB Web
 
-The web is NOT hosting publicly right now!
+The web is hosting at https://ltb.curent.org
 
 The web is using the Jekyll Theme *Feeling Responsive*.
 
@@ -21,7 +21,8 @@ bundle exec jekyll serve
 
 ## Content
 
-The website contains four pages, namely, "LTB", "ANDES", "AGVis", "DiME", and "Team". The source files locate in the folder ``pages\``.
+The website contains following pages: "LTB", "ANDES", "AGVis", "DiME", "SHOWCASE", and "ABOUT".
+The source files locate in the folder ``pages\`` and ``_posts/showcase``.
 
 The navigation bar is configured by the file ``_data\navigation.yml``.
 
