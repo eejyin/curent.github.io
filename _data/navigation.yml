@@ -18,12 +18,10 @@
   url: "/showcase/"
   side: left
   dropdown:
-  - title: "Publications"
-    url: "/showcase/publications/"
-  - title: "Poster 2023"
-    url: "/showcase/poster0418/"
   - title: "Presentation 2023"
-    url: "/showcase/pre0418/"
+    url: "/showcase/pre2023/"
+  - title: "Publications"
+    url: "/showcase/pub/"
 
 - title: About
   url: "/about/"

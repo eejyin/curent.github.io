@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 show_meta: false
 title: "Showcase of LTB"
 subheadline: "Power your research by LTB"
