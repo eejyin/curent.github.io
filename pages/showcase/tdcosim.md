@@ -1,0 +1,17 @@
+---
+layout: page-fullwidth
+show_meta: false
+title: "Showcase of LTB"
+subheadline: "Power your research by LTB"
+permalink: "/showcase/tdcosim/"
+header: no
+---
+### Transmission-and-Distribution Co-Simulation Framework
+
+An efficient open-source transmission-and-distribution (T&D) co-simulation framework for DER frequency response based on the HELICS platform and off-the-shelf T&D simulators.
+
+![TDCoSim](/images/T-DCoSim.png)
+
+Fig. Information exchange in Transmission-and-Distribution Dynamic Co-Simulation Framework
+
+W. Wang, X. Fang, H. Cui, F. Li, Y. Liu and T. J. Overbye, "Transmission-and-Distribution Dynamic Co-Simulation Framework for Distributed Energy Resource Frequency Response," in IEEE Transactions on Smart Grid, vol. 13, no. 1, pp. 482-495, Jan. 2022, doi: 10.1109/TSG.2021.3118292.

@@ -3,14 +3,14 @@ layout: page-fullwidth
 show_meta: false
 title: "Showcase of LTB"
 subheadline: "Power your research by LTB"
-permalink: "/showcase/"
+permalink: "/showcase/emw/"
 header: no
 ---
 ### Disturbance Propagation in Power Grids With High Converter Penetration
 
 Analytical studies based on continuum models for the 2-D power systems with synchronous generators and constant-power grid-following (GFL) converters.
 
-![EMW](/images/showcase/EMW.png)
+![EMW](/images/EMW.png)
 
 Fig. EMW propagation in the 2-D system based on PDE. (a) and (b) Forward EMW propagation to the edges (t=0.33 s and t=0.56 s,
 respectively). (c) and (d) Continuing propagation to the diagonal node and the subsequent reflections (t=0.77 s and t=0.90 s,
