@@ -1,208 +1,189 @@
 ---
 layout: default
-format: pages
+format: home
 ---
-
 <style>
-  /* Style for team member profile */
-  .team-member {
+  .team-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    margin-left: 100px;
-  }
-
-  .team-member img {
-    width: 100px;
-    height: 100px;
-    border-radius: 20%;
-    object-fit: cover;
-    margin-bottom: 5px;
-  }
-
-  .team-member h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .team-member p {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 0px;
-  }
-
-  .section {
-    margin: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .section-title {
-    font-size: 32px;
-    margin-bottom: 20px;
-    justify-content: flex-start;
-    margin-left: 250px;
-  }
-
-  .team-row {
-    display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    margin-left: 150px;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 20px;
+    /* margin-left: 100px; */
   }
-
-  .wide-paragraph {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-left: 0px;
-    /* prevent line breaks within words */
+  .team-member {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .team-member img {
+    width: 120px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 10px;
   }
 </style>
 
-<div class="section">
-  <h2 class="section-title">Leadership Team</h2>
-  <div class="team-row">
-    <div class="team-member">
-      <img src="/images/teams/FLi.jpeg" alt="FLi">
-      <h2>Dr. Fran Li</h2>
-      <p>Project Lead (since 2015)</p>
-      <p>University of Tennessee, Knoxville</p>
-    </div>
-    <div class="team-member">
-      <img src="/images/teams/KTomsovic.jpeg" alt="KTomsovic">
-      <h2>Dr. Kevin Tomsovic</h2>
-      <p>Project Co-lead (since 2015)</p>
-      <p>University of Tennessee, Knoxville</p>
-    </div>
-    <div class="team-member">
-      <img src="/images/teams/HCui.jpeg" alt="HCui">
-      <h2>Dr. Hantao Cui</h2>
-      <p>Chief Technologist; Author of LTB ANDES</p>
-      <p>Oklahoma State University</p>
-      <p>CURENT Affiliate Faculty</p>
-    </div>
-  </div>
-</div>
-
-<div class="section">
-  <h2 class="section-title">Senior Advisors</h2>
-  <div class="team-row">
-    <div class="team-member">
-      <img src="/images/teams/JChow.jpeg" alt="JChow">
-      <h2>Dr. Joe Chow</h2>
-      <p>Senior Advisor</p>
-      <p>Rensselaer Polytechnic Institute</p>
-    </div>
-    <div class="team-member">
-      <img src="/images/teams/AAbur.jpeg" alt="AAbur">
-      <h2>Dr. Ali Abur</h2>
-      <p>Senior Advisor</p>
-      <p>Northeastern University</p>
-    </div>
-  </div>
-  <!-- Add more team members as needed -->
-</div>
-
-<div class="section">
-  <h2 class="section-title">Core Development Team</h2>
-  <div class="team-row">
-    <div class="team-member">
-      <img src="/images/teams/HCui.jpeg" alt="HCui">
-      <h2>Dr. Hantao Cui</h2>
-      <p>LTB development coordination (2015-2021)</p>
-      <p>ANDES lead developement (since 2018)</p>
-      <p>Oklahoma State University</p>
-      <p>CURENT Affiliate Faculty</p>
-    </div>
-    <div class="team-member">
-      <img src="/images/teams/XFang.jpeg" alt="XFang">
-      <h2>Dr. Xin Fang</h2>
-      <p>AMS architect (since 2022)</p>
-      <p>Mississippi State University</p>
-      <p>CURENT Affiliate Faculty</p>
-    </div>
-    <div class="team-member">
-      <img src="/images/teams/JWang.jpeg" alt="JWang">
-      <h2>Mr. Jinning Wang</h2>
-      <p>LTB development coordination (since 2021)</p>
-      <p>AMS development (since 2022)</p>
-      <p>University of Tennessee, Knoxville</p>
-    </div>
-    <div class="team-member">
-      <img src="/images/teams/NParsly.jpeg" alt="NParsly">
-      <h2>Mr. Nicholas Parsly</h2>
-      <p>DiME and AGVis development (since 2022)</p>
-      <p>University of Tennessee, Knoxville</p>
-    </div>
-    <div class="team-member" style="margin-left: 50px;">
-      <img src="/images/teams/NWest.jpeg" alt="NWest">
-      <h2>Mr. Nick West</h2>
-      <p>DiME and AGVis development (2020-2022)</p>
-      <p>Alumni of University of Tennessee, Knoxville</p>
+<!-- Leadership Team -->
+<div class="row">
+  <div class="small-12 columns">
+    <h2>Leadership Team</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="/images/teams/FLi.jpeg" alt="FLi">
+        <h3><a href="http://web.eecs.utk.edu/~fli6/" target="_blank">Dr. Fran Li</a></h3>
+        <p>Project Lead (since 2015)</p>
+        <p>University of Tennessee, Knoxville</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/KTomsovic.jpeg" alt="KTomsovic">
+        <h3><a href="http://web.eecs.utk.edu/~ktomsovi/" target="_blank">Dr. Kevin Tomsovic</a></h3>
+        <p>Project Co-lead (since 2015)</p>
+        <p>University of Tennessee, Knoxville</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/HCui.jpeg" alt="HCui">
+        <h3><a href="https://cui.eecps.com/" target="_blank">Dr. Hantao Cui</a></h3>
+        <p>Chief Technologist; Author of ANDES</p>
+        <p>Oklahoma State University</p>
+        <p>CURENT Affiliate Faculty</p>
+      </div>
     </div>
   </div>
 </div>
+<!-- Leadership Team End-->
 
-<div class="section">
-  <h2 class="section-title">Other Contributors</h2>
-  <div class="team-row">
-    <div class="team-member">
-      <img src="/images/teams/QZhang.jpeg" alt="QZhang">
-      <h2>Dr. Qiwei Zhang</h2>
-      <p>Alumni of University of Tennessee, Knoxville</p>
-    </div>
-    <div class="team-member" style="margin-left: 50px;">
-      <img src="/images/teams/BShe.jpeg" alt="BShe">
-      <h2>Mr. Buxin She</h2>
-      <p>University of Tennessee, Knoxville</p>
+<!-- Senior Advisors -->
+<div class="row">
+  <div class="small-12 columns">
+    <h2>Senior Advisors</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="/images/teams/JChow.jpeg" alt="JChow">
+        <h3><a href="https://sites.ecse.rpi.edu/~chowj/" target="_blank">Dr. Joe Chow</a></h3>
+        <p>Senior Advisor</p>
+        <p>Rensselaer Polytechnic Institute</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/AAbur.jpeg" alt="AAbur">
+        <h3><a href="http://www1.ece.neu.edu/~abur/" target="_blank">Dr. Ali Abur</a></h3>
+        <p>Senior Advisor</p>
+        <p>Northeastern University</p>
+      </div>
     </div>
   </div>
 </div>
+<!-- Senior Advisors End-->
 
-<div class="section" style="margin-left: 250px;">
-  <h2 class="section-title" style="margin-left: 0px;">Research Collaborations</h2>
-  <p class="wide-paragraph">Are you looking for a partner to advance your research in power systems simulation and analysis?
-    CURENT LTB is a team of experts committed to advancing the state of the art in power systems technology, and we welcome
-    collaborations with academic institutions, research organizations, and industry partners.</p>
-  <p class="wide-paragraph">Our research collaborations cover a wide range of topics:</p>
-  <ul>
-    <li>Power system dynamics and high-performance computing</li>
-    <li>Cyber-physical power grid and communication co-simulation, and hardware-in-the-loop control</li>
-    <li>Deep learning methods and applications in non-linear dynamic system operation and control</li>
-    <li>Microgrid and smart distribution system control with distributed energy resources</li>
-    <li>Dispatch-dynamic co-simulation for a comprehensive understanding of power system behavior</li>
-    <li>Distributed energy resources for grid services</li>
-  </ul>
-  <p class="wide-paragraph">To learn more about our research collaborations and how we can work together, contact Dr. Fran Li at fli6@utk.edu. We look forward to hearing from you!</p>
+<!-- Core Development Team -->
+<div class="row">
+  <div class="small-12 columns">
+    <h2>Core Development Team</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="/images/teams/HCui.jpeg" alt="HCui">
+        <h3><a href="https://cui.eecps.com/" target="_blank">Dr. Hantao Cui</a></h3>
+        <p>LTB development coordination (2015-2021); ANDES lead developement (since 2018)</p>
+        <p>Oklahoma State University</p>
+        <p>CURENT Affiliate Faculty</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/XFang.jpeg" alt="XFang">
+        <h3><a href="http://www1.ece.neu.edu/~abur/" target="_blank">Dr. Xin Fang</a></h3>
+        <p>AMS architect (since 2022)</p>
+        <p>Mississippi State University</p>
+        <p>CURENT Affiliate Faculty</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/JWang.jpeg" alt="JWang">
+        <h3><a href="https://jinningwang.github.io/" target="_blank">Mr. Jinning Wang</a></h3>
+        <p>LTB development coordination (since 2021); AMS development (since 2022)</p>
+        <p>University of Tennessee, Knoxville</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/NParsly.jpeg" alt="NParsly">
+        <h3>Mr. Nicholas Parsly</h3>
+        <p>DiME and AGVis development (since 2022)</p>
+        <p>University of Tennessee, Knoxville</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/NWest.jpeg" alt="NWest">
+        <h3>Mr. Nick West</h3>
+        <p>DiME and AGVis development (2020-2022)</p>
+        <p>Alumni of University of Tennessee, Knoxville</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Core Development Team End-->
+
+<!-- Other -->
+<div class="row">
+  <div class="small-12 columns">
+    <h2>Other Contributors</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="/images/teams/QZhang.jpeg" alt="QZhang">
+        <h3>Dr. Qiwei Zhang</h3>
+        <p>Alumni of University of Tennessee, Knoxville</p>
+      </div>
+      <div class="team-member">
+        <img src="/images/teams/BShe.jpeg" alt="BShe">
+        <h3><a href="https://shebuxin.github.io/" target="_blank">Mr. Buxin She</a></h3>
+        <p>University of Tennessee, Knoxville</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Other End-->
+
+<div class="row">
+  <div class="small-12 columns">
+    <h2>Research Collaborations</h2>
+    <p>Are you looking for a partner to advance your research in power systems simulation and analysis?
+      CURENT LTB is a team of experts committed to advancing the state of the art in power systems technology,
+      and we welcome collaborations with academic institutions, research organizations, and industry partners.</p>
+    </p>Our research collaborations cover a wide range of topics:</p>
+      <ul>
+        <li>Power system dynamics and high-performance computing</li>
+        <li>Cyber-physical power grid and communication co-simulation, and hardware-in-the-loop control</li>
+        <li>Deep learning methods and applications in non-linear dynamic system operation and control</li>
+        <li>Microgrid and smart distribution system control with distributed energy resources</li>
+        <li>Dispatch-dynamic co-simulation for a comprehensive understanding of power system behavior</li>
+        <li>Distributed energy resources for grid services</li>
+      </ul>
+    <p>To learn more about our research collaborations and how we can work together, contact Dr. Fran Li at
+      fli6@utk.edu. We look forward to hearing from you!</p>
+  </div>
 </div>
 
-<div class="section" style="margin-left: 250px;">
-  <h2 class="section-title" style="margin-left: 0px;">Our Journey So Far: A Brief Look at LTB's Development</h2>
-  <p class="wide-paragraph">Around 2014-2015, a few years after the creation of the CURENT research center, the center
-    director Dr. Kevin Tomsovic initiated the idea of developing a software-based, closed-loop testbed for CURENT.
-    Since he was the overall director of CURENT with a super busy schedule, Dr. Tomsovic asked Dr. Fran Li to lead the
-    development work of what is now called CURENT Large-scale Testbed (LTB) or CLTB.</p>
-  <p class="wide-paragraph">In the first a couple of years of CLTB development, the team developed models of the North
-    American power grid
-    including WECC and reduced EI operation and planning models with various renewable energy penetration scenarios. A
-    nationwide HVDC overlay, inspired by the MISO HVDC overlay topology, was also created. Meanwhile, external
-    simulation engines were employed with in-house scripts to form a closed-loop simulation study on CLTB’s own North
-    American models. Also, initial versions of CLTB visualizer and data transfer package called DiME were developed
-    and integrated into the CLTB platform.</p>
-  <p class="wide-paragraph">Around 2017, the CLTB team decided to develop our own dynamic simulation engine called
-    ANDES to achieve
-    flexibility of the CLTB platform. Dr. Hantao Cui has been the lead developer of ANDES since then. He first
-    developed the initial version in Python and then advanced ANDES with a symbolic programming library. Now, ANDES
-    serves as a cornerstone package in CLTB and can be used as a standalone dynamic simulation tool as well. Dr.
-    Hantao Cui has been maintaining the ANDES package. Jinning Wang joined the effort as a helper since 2021.</p>
-  <p class="wide-paragraph">Around the same timeframe from 2018 to 2023, newer versions of DiME and visualizer (now
-    called AGVis) were
-    developed. Several key contributors include Nick West, Nicholas Parsly, and Jinning Wang.</p>
-  <p class="wide-paragraph">Currently, in spring 2023, the CLTB team is working on the development of a new package
-    called AMS which is an
-    economic dispatch and market simulation package. It is expected to be integrated with ANDES to perform
-    co-simulation of economic dispatch and dynamic simulation to form a true “digital twin” across multi-timescale.
-    The next version of CLBT will include ANDES, AMS, DiME and AGVis which is expected to be released in fall 2023.
-  </p>
+<div class="row">
+  <div class="small-12 columns">
+    <h2>Our Journey So Far: A Brief Look at LTB's Development</h2>
+    <p>Around 2014-2015, a few years after the creation of the CURENT research center, the center
+      director Dr. Kevin Tomsovic initiated the idea of developing a software-based, closed-loop testbed for CURENT.
+      Since he was the overall director of CURENT with a super busy schedule, Dr. Tomsovic asked Dr. Fran Li to lead the
+      development work of what is now called CURENT Large-scale Testbed (LTB) or CLTB.</p>
+    <p>In the first a couple of years of CLTB development, the team developed models of the North American power grid
+      including WECC and reduced EI operation and planning models with various renewable energy penetration scenarios. A
+      nationwide HVDC overlay, inspired by the MISO HVDC overlay topology, was also created. Meanwhile, external simulation
+      engines were employed with in-house scripts to form a closed-loop simulation study on CLTB’s own North American models.
+      Also, initial versions of CLTB visualizer and data transfer package called DiME were developed and integrated into
+      the CLTB platform.</p>
+    <p>Around 2017, the CLTB team decided to develop our own dynamic simulation engine called ANDES to achieve flexibility
+      of the CLTB platform. Dr. Hantao Cui has been the lead developer of ANDES since then. He first developed the initial
+      version in Python and then advanced ANDES with a symbolic programming library. Now, ANDES serves as a cornerstone
+      package in CLTB and can be used as a standalone dynamic simulation tool as well. Dr. Hantao Cui has been maintaining
+      the ANDES package. Jinning Wang joined the effort as a helper since 2021.</p>
+    <p>Around the same timeframe from 2018 to 2023, newer versions of DiME and visualizer (now called AGVis) were developed.
+      Several key contributors include Nick West, Nicholas Parsly, and Jinning Wang.</p>
+    <p>Currently, in spring 2023, the CLTB team is working on the development of a new package called AMS which is an
+      economic dispatch and market simulation package. It is expected to be integrated with ANDES to perform co-simulation
+      of economic dispatch and dynamic simulation to form a true “digital twin” across multi-timescale. The next version
+      of CLBT will include ANDES, AMS, DiME and AGVis which is expected to be released in fall 2023.</p>
+  </div>
 </div>
