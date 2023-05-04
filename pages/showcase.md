@@ -8,18 +8,16 @@ header: no
 ---
 ## Research
 
-* Disturbance Propagation in Power Grids With High Converter Penetration
+[Disturbance Propagation in Power Grids With High Converter Penetration](/showcase/emw/)
 
-* Transmission-and-Distribution Co-Simulation Framework
-
-## Teaching
-
-* Hands-on Project for using ANDES in Power System Transient Stability Analysis
+[Transmission-and-Distribution Co-Simulation Framework](/showcase/tdcosim/)
 
 ## Presentation
 
-* Presentation at CURENT Industry Conference 2023
+[Advancing a Decarbonized Power Grid: A Transient Stability Perspective with LTB - Talk at UTK ECE522 course](/showcase/ece2023/)
+
+[A Comprehensive Power System Testing Platform - Presentation at CURENT Industry Conference 2023](/showcase/pre2023/)
 
 ## Publication
 
-* CURENT LTB has been used in many publications, click here for the full list.
+[Publication list with LTB support](/showcase/pub/)

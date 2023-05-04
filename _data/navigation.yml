@@ -17,11 +17,6 @@
 - title: Showcase
   url: "/showcase/"
   side: left
-  dropdown:
-  - title: "Presentation 2023"
-    url: "/showcase/pre2023/"
-  - title: "Publications"
-    url: "/showcase/pub/"
 
 - title: About
   url: "/about/"
