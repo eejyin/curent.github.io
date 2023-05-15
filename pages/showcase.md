@@ -8,6 +8,8 @@ header: no
 ---
 ## Research
 
+[Virtual Inertia Scheduling (VIS) for Real-time Economic Dispatch](/showcase/visrted/)
+
 [Disturbance Propagation in Power Grids With High Converter Penetration](/showcase/emw/)
 
 [Transmission-and-Distribution Co-Simulation Framework](/showcase/tdcosim/)
