@@ -20,6 +20,8 @@ header: no
 
 [A Comprehensive Power System Testing Platform - Presentation at CURENT Industry Conference 2023](/showcase/pre2023/)
 
+[A Virtual Power Grid for Closed-loop Controls in Research and Testing- Presentation at Standford Smart Grid Seminar 2021](/showcase/pre2021/)
+
 ## Publication
 
 [Publication list with LTB support](/showcase/pub/)
