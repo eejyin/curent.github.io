@@ -8,6 +8,8 @@ header: no
 ---
 ## Research
 
+[Virtual Inertia Scheduling (VIS) for Microgrids with Static and Dynamic Security Constraints by Buxin She](/showcase/microvis/)
+
 [Virtual Inertia Scheduling (VIS) for Real-time Economic Dispatch by Buxin She](/showcase/visrted/)
 
 [Disturbance Propagation in Power Grids With High Converter Penetration by Dr. Hantao Cui](/showcase/emw/)
