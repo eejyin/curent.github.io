@@ -18,6 +18,8 @@ header: no
 
 ## Presentation
 
+[DiME and AGVis: Distributed Messaging Environment and Geographical Visualizer for CURENT Large-scale Testbed (LTB) by Jinning Wang](/showcase/naps2023/)
+
 [Advancing a Decarbonized Power Grid: A Transient Stability Perspective with LTB - Talk at UTK ECE522 Course by Jinning Wang](/showcase/ece2023/)
 
 [CURENT Large-scale Testbed (LTB) - A Comprehensive Power System Testing Platform, Presentation at CURENT Industry Conference 2023 by Jinning Wang](/showcase/pre2023/)
