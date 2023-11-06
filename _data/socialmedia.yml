@@ -1,4 +1,4 @@
-- name: linkdin
+- name: LinkedIn
   url: https://www.linkedin.com/company/76122605
   class: icon-linkedin
   title: "Linkedin"
@@ -13,10 +13,10 @@
   class: icon-youtube
   title: "YouTube Channel"
 
-# - name: Mixcloud
-#   url: http://www.mixcloud.com/phlow/
-#   class: icon-cloud
-#   title: "Mixe, was sonst?"
+# - name: Doc
+#   url: https://ltb.readthedocs.io/en/latest/
+#   class: icon-book
+#   title: "Documentation"
 
 # - name: Facebook
 #   url: http://www.facebook.com/

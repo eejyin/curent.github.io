@@ -2,14 +2,61 @@
 layout: default
 format: home
 ---
+<head>
+  <!-- Other HTML head elements -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
 <style>
-    h1 {
-        font-family: "Helvetica", cursive;
-        font-size: 48px;
-    }
-    partner-logo {
-        height: 10px;
-    }
+  h1 {
+      font-family: "Helvetica", cursive;
+      font-size: 48px;
+  }
+  partner-logo {
+      height: 10px;
+  }
+
+  .icon-label {
+  font-size: 30px;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px; /* Adjust the value to increase or decrease the space between icons */
+  }
+
+  .logo-gallery {
+    text-align: left;
+  }
+  .logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .partner-logo {
+    max-width: 500px;
+    object-fit: contain; /* Maintain aspect ratio */
+    height: 75px; /* Set a fixed height for uniformity */
+  }
+  .scaled-up {
+    max-width: 500px; /* Increase the width of scaled-up logos */
+    object-fit: contain; /* Maintain aspect ratio */
+    height: 150px; /* Increase the height of scaled-up logos */
+  }
+
+  .row-start {
+    flex-basis: 100%; /* Start a new row for the logo */
+  }
+
+  .line-break {
+    flex-basis: 100%; /* Create a line break */
+    height: 0;
+    margin-top: 20px;
+    /* border-top: 1px solid #000; */
+  }
 </style>
 
 <div id="header-home">
@@ -21,39 +68,59 @@ format: home
     </div><!-- /.row -->
 </div><!-- /#header-home -->
 
-<div class="row">
-    <div class="small-12 columns" style="margin-top: 100px; margin-bottom: 100px;">
+<body>
+  <div class="row">
+    <div class="small-24 columns" style="text-align: center;">
         <img src="images/CURENT_Logo_FullOnWhite.png";
         alt="CURENT";
-        style="float:left";
+        style="float:center";
         margin-left:100px;
-        width="300"; height: auto;>
-        <p style="font-size: 54px;
-        font-family: Helvetica;
-        margin-left: 50px;">
+        width="600"; height: auto;>
+        </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns" style="text-align: center;">
+        <p style="font-size: 60px;
+        font-family: Helvetica;">
         Large-scale Testbed
         </p>
     </div>
   </div>
 
-  <div class="row text-center">
-    <div class="small-12 columns text-center">
-      <a href="https://ltb.readthedocs.io/en/latest/" class="button" style="background-color: #007E3A; color: #FFFFFF; margin-left:-100px;">Documentation</a>
-      <a href="https://www.youtube.com/@curentltb" class="button" style="background-color: #007E3A; color: #FFFFFF;">YouTube Channel</a>
-      <a href="https://github.com/CURENT" class="button" style="background-color: #007E3A; color: #FFFFFF;">Code Repository</a>
+  <div class="row">
+    <div class="small-24 columns" style="text-align: left; margin-top: 20px;">
+      <div class="icon-container">
+        <a href="https://ltb.readthedocs.io/en/latest/">
+          <i class="fa fa-book fa-2x"></i>
+          <span class="icon-label">Documentation</span>
+        </a>
+        <a href="https://github.com/CURENT">
+          <i class="fab fa-github fa-2x"></i>
+          <span class="icon-label">GitHub</span>
+        </a>
+        <a href="https://www.youtube.com/@curentltb">
+          <i class="fab fa-youtube fa-2x"></i>
+          <span class="icon-label">YouTube</span>
+        </a>
+        <a href="https://www.linkedin.com/company/76122605">
+          <i class="fab fa-linkedin fa-2x"></i>
+          <span class="icon-label">LinkedIn</span>
+        </a>
+      </div>
     </div>
   </div>
 
-
-<div class="row">
-    <div class="small-12 columns">
-      <h2>OVERVIEW</h2>
-      <p>The CURENT Large-scale Testbed (LTB) is a state-of-the-art research facility designed for rapid prototyping of power systems.
-        It is a tightly integrated, closed-loop system consisting of four major independent sub-packages: ANDES for dynamic simulation,
-        AMS (under development) for market simulation,DiME for distributed messaging environment, and AGVis for grid visualization.
-        These LTB packages can be used individually or in a federated manner, making it a versatile tool for power system research and development.</p>
+  <div class="row">
+      <div class="small-12 columns">
+        <h2>OVERVIEW</h2>
+        <p>The CURENT Large-scale Testbed (LTB) is a state-of-the-art research facility designed for rapid prototyping of power systems.
+          It is a tightly integrated, closed-loop system consisting of four major independent sub-packages: ANDES for dynamic simulation,
+          AMS (under development) for market simulation,DiME for distributed messaging environment, and AGVis for grid visualization.
+          These LTB packages can be used individually or in a federated manner, making it a versatile tool for power system research and development.</p>
+      </div>
     </div>
-  </div>
 
   <div class="row">
     <div class="small-12 columns">
@@ -65,3 +132,102 @@ format: home
       </ol>
     </div>
   </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h2>PARTNERS</h2>
+      <div class="logo-container">
+        <!-- Logo images will be dynamically added here -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Add the first logo to the logo gallery
+    const logoContainer = document.querySelector('.logo-container');
+
+    // NSF
+    const logoImgNSF = document.createElement('img');
+    logoImgNSF.src = '/images/logos/NSF2.png';
+    logoImgNSF.alt = 'US National Science Foundation';
+    logoImgNSF.classList.add('partner-logo', 'scaled-up');
+    logoContainer.appendChild(logoImgNSF);
+
+    // DOE
+    const logoImgDOE = document.createElement('img');
+    logoImgDOE.src = '/images/logos/DOE.png';
+    logoImgDOE.alt = 'US Department of Energy';
+    logoImgDOE.classList.add('partner-logo', 'scaled-up');
+    logoContainer.appendChild(logoImgDOE);
+
+    // Add line break
+    const lineBreak = document.createElement('div');
+    lineBreak.classList.add('line-break');
+    logoContainer.appendChild(lineBreak);
+
+    // MST
+    const logoImgMST = document.createElement('img');
+    logoImgMST.src = '/images/logos/MST.png';
+    logoImgMST.alt = 'Missouri S&T';
+    logoImgMST.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgMST);
+
+    // LLNL
+    const logoImgLLNL = document.createElement('img');
+    logoImgLLNL.src = '/images/logos/LLNL.png';
+    logoImgLLNL.alt = 'Lawrence Livermore National Laboratory';
+    logoImgLLNL.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgLLNL);
+
+    // ACLR
+    const logoImgACLR = document.createElement('img');
+    logoImgACLR.src = '/images/logos/ACHL2.png';
+    logoImgACLR.alt = 'Achillea Research';
+    logoImgACLR.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgACLR);
+
+    // UDenver
+    const logoImgUD = document.createElement('img');
+    logoImgUD.src = '/images/logos/UDenver.png';
+    logoImgUD.alt = 'Achillea Research';
+    logoImgUD.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgUD);
+
+    // RTX
+    const logoImgRTX = document.createElement('img');
+    logoImgRTX.src = '/images/logos/RTX2.png';
+    logoImgRTX.alt = 'Raytheon Technologies';
+    logoImgRTX.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgRTX);
+
+    // NREL
+    const logoImgNREL = document.createElement('img');
+    logoImgNREL.src = '/images/logos/NREL.jpeg';
+    logoImgNREL.alt = 'National Renewable Energy Laboratory';
+    logoImgNREL.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgNREL);
+
+    // OSU
+    const logoImgOSU = document.createElement('img');
+    logoImgOSU.src = '/images/logos/OSU.png';
+    logoImgOSU.alt = 'Oklahoma State University';
+    logoImgOSU.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgOSU);
+
+    // MSU
+    const logoImgMSU = document.createElement('img');
+    logoImgMSU.src = '/images/logos/MSU.png';
+    logoImgMSU.alt = 'Mississippi State University';
+    logoImgMSU.classList.add('partner-logo');
+    logoContainer.appendChild(logoImgMSU);
+
+    // PNNL
+    // const logoImgPNNL = document.createElement('img');
+    // logoImgPNNL.src = '/images/logos/PNNL2.png';
+    // logoImgPNNL.alt = 'Pacific Northwest National Laboratory';
+    // logoImgPNNL.classList.add('partner-logo');
+    // logoContainer.appendChild(logoImgPNNL);
+    
+  </script>
+
+</body>
