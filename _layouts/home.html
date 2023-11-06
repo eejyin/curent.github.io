@@ -36,27 +36,41 @@ format: home
     gap: 20px;
     margin-top: 20px;
   }
+
   .partner-logo {
-    max-width: 500px;
-    object-fit: contain; /* Maintain aspect ratio */
-    height: 75px; /* Set a fixed height for uniformity */
-  }
-  .scaled-up {
-    max-width: 500px; /* Increase the width of scaled-up logos */
-    object-fit: contain; /* Maintain aspect ratio */
-    height: 150px; /* Increase the height of scaled-up logos */
-  }
-
-  .row-start {
-    flex-basis: 100%; /* Start a new row for the logo */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* Set a fixed height for uniformity */
+    height: 100px;
+    /* Allow the width to adjust based on the image aspect ratio */
+    width: auto;
+    margin: 0px;
   }
 
-  .line-break {
-    flex-basis: 100%; /* Create a line break */
-    height: 0;
-    margin-top: 20px;
-    /* border-top: 1px solid #000; */
+  .partner-logo img {
+    height: 100%; /* Set the image height to 100% of the container */
+    width: auto; /* Allow the width to adjust based on the image aspect ratio */
+    object-fit: contain; /* Preserve aspect ratio and fit the whole image within the container */
   }
+
+  .partner-logo2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* Set a fixed height for uniformity */
+    height: 80px;
+    /* Allow the width to adjust based on the image aspect ratio */
+    width: auto;
+    margin: 0px;
+  }
+
+  .partner-logo2 img {
+    height: 100%; /* Set the image height to 100% of the container */
+    width: auto; /* Allow the width to adjust based on the image aspect ratio */
+    object-fit: contain; /* Preserve aspect ratio and fit the whole image within the container */
+  }
+
 </style>
 
 <div id="header-home">
@@ -91,6 +105,7 @@ format: home
 
   <div class="row">
     <div class="small-24 columns" style="text-align: left; margin-top: 20px;">
+      <h2>QUICK LINKS</h2>
       <div class="icon-container">
         <a href="https://ltb.readthedocs.io/en/latest/">
           <i class="fa fa-book fa-2x"></i>
@@ -121,7 +136,7 @@ format: home
           These LTB packages can be used individually or in a federated manner, making it a versatile tool for power system research and development.</p>
       </div>
     </div>
-
+  
   <div class="row">
     <div class="small-12 columns">
       <h2>CITE US</h2>
@@ -135,99 +150,47 @@ format: home
 
   <div class="row">
     <div class="small-12 columns">
-      <h2>PARTNERS</h2>
+      <h2>PARTNERS & USERS</h2>
       <div class="logo-container">
-        <!-- Logo images will be dynamically added here -->
+        <div class="partner-logo">
+          <img src="/images/logos/NSF2.png"; alt="US National Science Foundation";>
+        </div>
+        <div class="partner-logo">
+          <img src="/images/logos/DOE.png"; alt="US Department of Energy";>
+        </div>
       </div>
     </div>
   </div>
 
-  <script>
-    // Add the first logo to the logo gallery
-    const logoContainer = document.querySelector('.logo-container');
-
-    // NSF
-    const logoImgNSF = document.createElement('img');
-    logoImgNSF.src = '/images/logos/NSF2.png';
-    logoImgNSF.alt = 'US National Science Foundation';
-    logoImgNSF.classList.add('partner-logo', 'scaled-up');
-    logoContainer.appendChild(logoImgNSF);
-
-    // DOE
-    const logoImgDOE = document.createElement('img');
-    logoImgDOE.src = '/images/logos/DOE.png';
-    logoImgDOE.alt = 'US Department of Energy';
-    logoImgDOE.classList.add('partner-logo', 'scaled-up');
-    logoContainer.appendChild(logoImgDOE);
-
-    // Add line break
-    const lineBreak = document.createElement('div');
-    lineBreak.classList.add('line-break');
-    logoContainer.appendChild(lineBreak);
-
-    // MST
-    const logoImgMST = document.createElement('img');
-    logoImgMST.src = '/images/logos/MST.png';
-    logoImgMST.alt = 'Missouri S&T';
-    logoImgMST.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgMST);
-
-    // LLNL
-    const logoImgLLNL = document.createElement('img');
-    logoImgLLNL.src = '/images/logos/LLNL.png';
-    logoImgLLNL.alt = 'Lawrence Livermore National Laboratory';
-    logoImgLLNL.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgLLNL);
-
-    // ACLR
-    const logoImgACLR = document.createElement('img');
-    logoImgACLR.src = '/images/logos/ACHL2.png';
-    logoImgACLR.alt = 'Achillea Research';
-    logoImgACLR.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgACLR);
-
-    // UDenver
-    const logoImgUD = document.createElement('img');
-    logoImgUD.src = '/images/logos/UDenver.png';
-    logoImgUD.alt = 'Achillea Research';
-    logoImgUD.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgUD);
-
-    // RTX
-    const logoImgRTX = document.createElement('img');
-    logoImgRTX.src = '/images/logos/RTX2.png';
-    logoImgRTX.alt = 'Raytheon Technologies';
-    logoImgRTX.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgRTX);
-
-    // NREL
-    const logoImgNREL = document.createElement('img');
-    logoImgNREL.src = '/images/logos/NREL.jpeg';
-    logoImgNREL.alt = 'National Renewable Energy Laboratory';
-    logoImgNREL.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgNREL);
-
-    // OSU
-    const logoImgOSU = document.createElement('img');
-    logoImgOSU.src = '/images/logos/OSU.png';
-    logoImgOSU.alt = 'Oklahoma State University';
-    logoImgOSU.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgOSU);
-
-    // MSU
-    const logoImgMSU = document.createElement('img');
-    logoImgMSU.src = '/images/logos/MSU.png';
-    logoImgMSU.alt = 'Mississippi State University';
-    logoImgMSU.classList.add('partner-logo');
-    logoContainer.appendChild(logoImgMSU);
-
-    // PNNL
-    // const logoImgPNNL = document.createElement('img');
-    // logoImgPNNL.src = '/images/logos/PNNL2.png';
-    // logoImgPNNL.alt = 'Pacific Northwest National Laboratory';
-    // logoImgPNNL.classList.add('partner-logo');
-    // logoContainer.appendChild(logoImgPNNL);
-    
-  </script>
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="logo-container">
+        <div class="partner-logo2">
+          <img src="/images/logos/MST.png"; alt="Missouri S&T";>
+        </div>
+        <div class="partner-logo2">
+          <img src="/images/logos/LLNL.png"; alt="Lawrence Livermore National Laboratory";>
+        </div>
+        <div class="partner-logo2">
+          <img src="/images/logos/ACHL2.png"; alt="Achillea Research";>
+        </div>
+        <div class="partner-logo2">
+          <img src="/images/logos/UDenver.png"; alt="University of Denver";>
+        </div>
+        <div class="partner-logo2">
+          <img src="/images/logos/RTX2.png"; alt="Raytheon Technologies";>
+        </div>
+        <div class="partner-logo2">
+          <img src="/images/logos/NREL.jpeg"; alt="National Renewable Energy Laboratory";>
+        </div>
+        <div class="partner-logo2">
+          <img src="/images/logos/OSU.png"; alt="Oklahoma State University";>
+        </div>
+        <div class="partner-logo2">
+          <img src="/images/logos/MSU.png"; alt="Mississippi State University";>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
