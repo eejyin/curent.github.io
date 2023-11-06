@@ -37,6 +37,7 @@ format: home
     margin-top: 20px;
   }
 
+    /* First kind logo */
   .partner-logo {
     display: flex;
     align-items: center;
@@ -47,13 +48,13 @@ format: home
     width: auto;
     margin: 0px;
   }
-
   .partner-logo img {
     height: 100%; /* Set the image height to 100% of the container */
     width: auto; /* Allow the width to adjust based on the image aspect ratio */
     object-fit: contain; /* Preserve aspect ratio and fit the whole image within the container */
   }
 
+  /* Second kind logo, given height */
   .partner-logo2 {
     display: flex;
     align-items: center;
@@ -64,13 +65,28 @@ format: home
     width: auto;
     margin: 0px;
   }
-
   .partner-logo2 img {
     height: 100%; /* Set the image height to 100% of the container */
     width: auto; /* Allow the width to adjust based on the image aspect ratio */
     object-fit: contain; /* Preserve aspect ratio and fit the whole image within the container */
   }
 
+  /* Third kind logo, given width */
+  .partner-logo3 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* Set a fixed height for uniformity */
+    height: auto;
+    /* Allow the width to adjust based on the image aspect ratio */
+    width: 300px;
+    margin: 0px;
+  }
+  .partner-logo3 img {
+    height: auto; /* Set the image height to 100% of the container */
+    width: 100%; /* Allow the width to adjust based on the image aspect ratio */
+    object-fit: contain; /* Preserve aspect ratio and fit the whole image within the container */
+  }
 </style>
 
 <div id="header-home">
@@ -188,7 +204,7 @@ format: home
         <div class="partner-logo2">
           <img src="/images/logos/MSU.png"; alt="Mississippi State University";>
         </div>
-        <div class="partner-logo2">
+        <div class="partner-logo3">
           <img src="/images/logos/PNNL2.png"; alt="Pacific Northwest National Laboratory";>
         </div>
       </div>
