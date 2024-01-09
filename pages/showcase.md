@@ -29,3 +29,6 @@ header: no
 ## Publication
 
 [Publication list with LTB support](/showcase/pub/)
+
+## Getting Started
+[Quick Start Guide](/showcase/quickstart/)
