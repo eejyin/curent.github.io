@@ -6,6 +6,19 @@ subheadline: "Power your research by LTB"
 permalink: "/showcase/"
 header: no
 ---
+
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+
 ## Research
 
 [Virtual Inertia Scheduling (VIS) for Microgrids with Static and Dynamic Security Constraints by Buxin She](/showcase/microvis/)
@@ -14,7 +27,7 @@ header: no
 
 [Disturbance Propagation in Power Grids With High Converter Penetration by Dr. Hantao Cui](/showcase/emw/)
 
-[Transmission-and-Distribution Co-Simulation Framework by Dr. Wenbo Wang](/showcase/tdcosim/)
+[Transmission-and-Distribution Co-Simulation Framework by Dr. Xin Fang](/showcase/tdcosim/)
 
 ## Presentation
 

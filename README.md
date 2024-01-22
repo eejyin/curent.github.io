@@ -1,8 +1,6 @@
 # CURENT LTB Web
 
-The web is hosting at https://ltb.curent.org
-
-The web is using the Jekyll Theme *Feeling Responsive*.
+The LTB website is develoepd using the Jekyll Theme [Feeling Responsive](https://github.com/Phlow/feeling-responsive).
 
 ## Maintenance
 
@@ -10,14 +8,9 @@ The update should be made and tested on branch ``develop`` first, and then deplo
 
 1. Make sure the branch ``develop`` is update to the branch ``master``
 2. Update the contents in the branch ``develop``
-3. Run your Jekyll site locally on branch ``develop``
-
-```
-bundle exec jekyll serve
-```
-
-4. If update looks good locally, merge the updated branch ``develop`` into branch ``master``
-5. Wait the deployment of the updated website
+3. Run your Jekyll site locally on branch ``develop``: ``bundle exec jekyll serve``
+4. If update looks good locally, merge the updated branch ``develop`` into branch ``master`` using a pull request
+5. After the deployment, the website will be updated automatically
 
 ## Content
 
