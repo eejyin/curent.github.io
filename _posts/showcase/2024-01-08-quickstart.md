@@ -7,6 +7,18 @@ permalink: "/showcase/quickstart/"
 header: no
 ---
 
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+
 This page provides a quick start guide for new users to get started with LTB.
 Each project has its own documentation, where more details about installation and example usage can be found.
 
@@ -72,6 +84,10 @@ For model development purpose, you may want to install the latest version and pl
 [Develop Install](https://docs.andes.app/en/latest/getting_started/install.html#develop-install) discusses how to install ANDES in development mode.
 It is also applicable to AMS and AGVis.
 
+# Hands-on Tutorial
+
+It is recommended to go through [ANDES Examples](https://docs.andes.app/en/latest/examples/index.html) and [AMS Examples](https://ltb.readthedocs.io/projects/ams/en/latest/examples/index.html) to get started with LTB.
+
 # Usage
 
 ## Jupyter Notebook
@@ -98,7 +114,15 @@ With Binder, open notebooks in an executable environment, making your code immed
 
 # Related Topics
 
+## Research Code
+
+[The Good Research Code Handbook](https://goodresearch.dev) by Patrick Mineault
+
 ## Software Development
+
+1. J. K. Ousterhout, A philosophy of software design, First edition. Palo Alto, CA: Yaknyam Press, 2018.
+
+## Software Quality
 
 [Semantic Versioning][Semantic Versioning];
 [Continuous Integration][Continuous Integration];
@@ -118,7 +142,6 @@ Tools
 [PYPOWER][PYPOWER];
 [pandapower][pandapower];
 [PyPSA][PyPSA]
-
 
 * * *
 
