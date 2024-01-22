@@ -21,7 +21,7 @@ header: no
 
 ## Getting Started
 [Quick Start Guide](/showcase/quickstart/)
-
+              
 ## Research
 
 [Virtual Inertia Scheduling (VIS) for Microgrids with Static and Dynamic Security Constraints by Buxin She](/showcase/microvis/)
@@ -63,3 +63,5 @@ header: no
 ### Report
 
 1. W. Wang, X. Fang, H. Cui, J. Wang, F. Li, Y. Liu, T. J. Overbye, M. Cai, and C. Irwin, "Cyber-Physical Dynamic System (CPDS) Modeling for Frequency Regulation and AGC Services of Distributed Energy Resources," August 2022. [Online]. Available: https://www.osti.gov/biblio/1882191.
+=======
+[Publication list with LTB support](/showcase/pub/)
