@@ -14,7 +14,7 @@ header: no
 
 [Disturbance Propagation in Power Grids With High Converter Penetration by Dr. Hantao Cui](/showcase/emw/)
 
-[Transmission-and-Distribution Co-Simulation Framework by Dr. Wenbo Wang](/showcase/tdcosim/)
+[Transmission-and-Distribution Co-Simulation Framework by Dr. Xin Fang](/showcase/tdcosim/)
 
 ## Presentation
 
