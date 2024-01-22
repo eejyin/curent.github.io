@@ -5,21 +5,6 @@
   class: "network-entypo"
   title: "CURENT"
 
-- name: "Enliten Lab"
-  url: "https://enliten.utk.edu"
-  class: "network-entypo"
-  title: "Enliten Lab"
-
-- name: "Sustainable Energy Systems Lab (SENSL)"
-  url: "https://cui.eecps.com/group/"
-  class: "network-entypo"
-  title: "Sustainable Energy Systems Lab (SENSL)"
-
-- name: "Open-source projects for Power System Analysis"
-  url: "https://github.com/jinningwang/best-of-ps"
-  class: "network-entypo"
-  title: "Open-source projects for Power System Analysis"
-
 # - name: "Images by Unsplash"
 #   url: "http://unsplash.com/"
 #   class: "rss-link"
