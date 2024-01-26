@@ -40,13 +40,13 @@ header: no
 
 ### Journal
 
+1. H. Cui et al., "Disturbance Propagation in Power Grids With High Converter Penetration," in Proceedings of the IEEE, doi: 10.1109/JPROC.2022.3173813.
 1. J. Wang et al., "Electric Vehicles Charging Time Constrained Deliverable Provision of Secondary Frequency Regulation," in IEEE Transactions on Smart Grid, doi: 10.1109/TSG.2024.3356948.
 1. B. She, F. Li, H. Cui, J. Wang, Q. Zhang and R. Bo, "Virtual Inertia Scheduling (VIS) for Real-time Economic Dispatch of IBRs-penetrated Power Systems," in IEEE Transactions on Sustainable Energy, doi: 10.1109/TSTE.2023.3319307.
 1. J. Pei, J. Wang, Z. Wang and D. Shi, "Precise Recovery of Corrupted Synchrophasors Based on Autoregressive Bayesian Low-Rank Factorization and Adaptive K-Medoids Clustering," in IEEE Transactions on Power Systems, vol. 38, no. 6, pp. 5834-5848, Nov. 2023, doi: 10.1109/TPWRS.2022.3221291.
 1. Zhang, Q., Li, F. A Dataset for Electricity Market Studies on Western and Northeastern Power Grids in the United States. *Sci Data*  **10** , 646 (2023). doi: 10.1038/s41597-023-02448-w.
 1. W. Cui, W. Yang and B. Zhang, "A Frequency Domain Approach to Predict Power System Transients," in IEEE Transactions on Power Systems, vol. 39, no. 1, pp. 465-477, Jan. 2024, doi: 10.1109/TPWRS.2023.3259960.
 1. N. Gao, D. W. Gao and X. Fang, "Manage Real-Time Power Imbalance With Renewable Energy: Fast Generation Dispatch or Adaptive Frequency Regulation?," in IEEE Transactions on Power Systems, vol. 38, no. 6, pp. 5278-5289, Nov. 2023, doi: 10.1109/TPWRS.2022.3232759.
-1. H. Cui et al., "Disturbance Propagation in Power Grids With High Converter Penetration," in Proceedings of the IEEE, doi: 10.1109/JPROC.2022.3173813.
 1. W. Wang, X. Fang, H. Cui, F. Li, Y. Liu and T. J. Overbye, "Transmission-and-Distribution Dynamic Co-Simulation Framework for Distributed Energy Resource Frequency Response," in IEEE Transactions on Smart Grid, vol. 13, no. 1, pp. 482-495, Jan. 2022, doi: 10.1109/TSG.2021.3118292.
 1. Y. Zhang et al., "Encoding Frequency Constraints in Preventive Unit Commitment Using Deep Learning With Region-of-Interest Active Sampling," in IEEE Transactions on Power Systems, vol. 37, no. 3, pp. 1942-1955, May 2022, doi: 10.1109/TPWRS.2021.3110881.
 1. C. Lackner, D. Osipov, H. Cui and J. H. Chow, "A Privacy-Preserving Distributed Wide-Area Automatic Generation Control Scheme," in IEEE Access, vol. 8, pp. 212699-212708, 2020, doi: 10.1109/ACCESS.2020.3040883.
