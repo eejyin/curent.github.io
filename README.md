@@ -8,7 +8,7 @@ The LTB website is built using the Jekyll Theme [Feeling Responsive](https://git
 
 ### Layout
 
-The content of most pages is written in Markdown, as seen in files stored in the `pages` folder. Additionally, some pages are formatted using HTML, offering greater flexibility. Examples of HTML-formatted pages include the [about](_layouts/about.html) and [team](_layouts/team.html) pages.
+The content of most pages is written in Markdown, as seen in files stored in the `pages` folder. Additionally, some pages are formatted using HTML, offering greater flexibility. Examples of HTML-formatted pages include the [ltb](_layouts/home.html) and [team](_layouts/team.html) pages.
 
 ### Structure
 
