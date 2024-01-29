@@ -22,12 +22,12 @@ header: no
 ## Getting Started
 [Quick Start Guide](/showcase/quickstart/)
 
-## Research
-1. [Electric Vehicles Charging Time Constrained Deliverable Provision of Secondary Frequency Regulation by Jinning Wang](/showcase/evsfr/)
-1. [Virtual Inertia Scheduling (VIS) for Microgrids with Static and Dynamic Security Constraints by Buxin She](/showcase/microvis/)
-1. [Virtual Inertia Scheduling (VIS) for Real-time Economic Dispatch by Buxin She](/showcase/visrted/)
+## Research Demo
 1. [Disturbance Propagation in Power Grids With High Converter Penetration by Dr. Hantao Cui](/showcase/emw/)
 1. [Transmission-and-Distribution Co-Simulation Framework by Dr. Xin Fang](/showcase/tdcosim/)
+1. [Electric Vehicles Charging Time Constrained Deliverable Provision of Secondary Frequency Regulation by Jinning Wang](/showcase/evsfr/)
+1. [Virtual Inertia Scheduling (VIS) for Real-time Economic Dispatch by Buxin She](/showcase/visrted/)
+1. [Virtual Inertia Scheduling (VIS) for Microgrids with Static and Dynamic Security Constraints by Buxin She](/showcase/microvis/)
 
 ## Presentations and Talks
 
