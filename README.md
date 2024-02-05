@@ -13,11 +13,8 @@ The content of most pages is written in Markdown, as seen in files stored in the
 ### Structure
 
 - **Homepage**: [LTB](_layouts/about.html) serves as the homepage of the website.
-- **Sub-Pages**: Each major component has its own sub-homepage, including:
-  - [ANDES](pages/andes.md)
-  - [AGVis](pages/agvis.md)
-  - [DiME](pages/dime.md)
-  - [SHOWCASE](pages/showcase.md), where it contains more sub-pages stored in `_posts`
+- **Product**: in Product, it contains more sub-pages stored in `_posts/product`.
+- **Showcase**: in Showcase, it contains more sub-pages stored in `_posts/showcase`.
 
 ### Configurations
 

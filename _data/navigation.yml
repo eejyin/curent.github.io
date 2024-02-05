@@ -2,16 +2,8 @@
   url: "/"
   side: left
 
-- title: "ANDES"
-  url: "/andes/"
-  side: left
-
-- title: "AGVis"
-  url: "/agvis/"
-  side: left
-
-- title: DiME
-  url: "/dime/"
+- title: "PRODUCT"
+  url: "/product/"
   side: left
 
 - title: Showcase
