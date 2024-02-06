@@ -12,9 +12,9 @@ The content of most pages is written in Markdown, as seen in files stored in the
 
 ### Structure
 
-- **Homepage**: [LTB](_layouts/about.html) serves as the homepage of the website.
-- **Product**: in Product, it contains more sub-pages stored in `_posts/product`.
-- **Showcase**: in Showcase, it contains more sub-pages stored in `_posts/showcase`.
+- **Homepage**: `_layouts/about.html` serves as the homepage of the website. It is revised directly in the HTML file for greater flexibility.
+- **Product**: in Product, it contains more sub-pages stored in `_posts/product.md`.
+- **Showcase**: in Showcase, it contains more sub-pages stored in `_posts/showcase.md`.
 
 ### Configurations
 
