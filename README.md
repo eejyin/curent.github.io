@@ -1,6 +1,6 @@
 # CURENT LTB Web
 
-![Last Updated](https://img.shields.io/github/last-commit/CURENT/curent.github.io.svg?label=last%20update) [![pages-build-deployment](https://github.com/CURENT/curent.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/CURENT/curent.github.io/actions/workflows/pages/pages-build-deployment)
+![Last Updated](https://img.shields.io/github/last-commit/CURENT/curent.github.io.svg?label=last%20update) [![pages-build-deployment](https://github.com/CURENT/curent.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/CURENT/curent.github.io/actions/workflows/pages/pages-build-deployment) [![LTB Web Tests](https://github.com/CURENT/curent.github.io/actions/workflows/ltbweb.yml/badge.svg?branch=develop)](https://github.com/CURENT/curent.github.io/actions/workflows/ltbweb.yml)
 
 The LTB website is built using the Jekyll Theme [Feeling Responsive](https://github.com/Phlow/feeling-responsive).
 
