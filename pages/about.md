@@ -7,7 +7,29 @@ permalink: "/about/"
 homepage: False
 header: no
 ---
+
 # News
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="flex: 1;">
+        <p><b>2023 NAPS Best Graduate Paper Award</b></p>
+        <p>Jinning Wang presented CURENT LTB packages, AGVis, and DiME, on the 55th Annual North American Power Symposium (NAPS) in Asheville, North Carolina. The paper titled "DiME and AGVis: A Distributed Messaging Environment and Geographical Visualizer for Large-Scale Power System Simulation" was awarded the Best Paper Graduate Award at the conference.</p>
+        <span class="__dimensions_badge_embed__" data-doi="10.1109/NAPS58826.2023.10318583" data-style="large_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    </div>
+    <div style="flex: 1; display: flex; justify-content: center;">
+        <img src="/images/awards/Award_NAPS2023.jpg" alt="2023NAPS" width="250" style="transform: rotate(90deg);">
+    </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="flex: 1;">
+        <p><b>2020 R&D 100</b></p>
+        <p>The CURENT Large Scale Testbed (LTB) for cyber-physical power grid simulation led by the CURENT research center (headquartered at The University of Tennessee) has been selected as a recipient of the 2020 R&D 100 Awards, which are known as the most prestigious innovation awards program for the past 56 years, honoring 100 great R&D revolutionary ideas and products each year in science and technology.</p>
+    </div>
+    <div style="flex: 1; display: flex; justify-content: center;">
+        <img src="/images/awards/RD100_2020.jpg" alt="2023NAPS" width="250">
+    </div>
+</div>
 
 # Our Journey So Far: A Brief Look at LTB's Development
 
