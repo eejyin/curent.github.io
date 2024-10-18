@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University of Tennessee, Knoxville",
+        "marker-color": "red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.9300, 35.9517]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mississippi State University"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.789, 33.454]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University of Denver"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.9622, 39.6783]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "National Renewable Energy Laboratory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.2135, 39.742]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pacific Northwest National Laboratory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.2763, 46.3432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.71, 37.69]
+      }
+    }
+  ]
+}
