@@ -22,7 +22,31 @@ LTB platform contains aims a set of power system analysis packages for research 
 # Datasets
 
 Datasets for ANDES, AMS, and AGVis are shipped with the respective packages.
-A summary table is comming soon.
+In total, LTB currently ships Andes with 13 available cases, AMS has 7, and AGVis has 8 cases. ieee39, npcc, and wecc are available across all platforms of LTB.
+
+A summary table is list below.
+
+|              | ANDES | AMS | AGVis |
+|--------------|:-----:|:---:|:-----:|
+| ieee39       |   ✓   |  ✓  |   ✓   |
+| npcc         |   ✓   |  ✓  |   ✓   |
+| wecc         |   ✓   |  ✓  |   ✓   |
+| 5bus         |   ✓   |  ✓  |   -   |
+| GBnewtork    |   ✓   |  -  |   -   |
+| ei_33        |   ✓   |  -  |   -   |
+| ieee14       |   ✓   |  -  |   -   |
+| kundur       |   ✓   |  -  |   -   |
+| matpower     |   ✓   |  ✓  |   -   |
+| nordic44     |   ✓   |  -  |   -   |
+| smib         |   ✓   |  -  |   -   |
+| wscc9        |   ✓   |  -  |   -   |
+| ieee123      |   -   |  ✓  |   -   |
+| ei528        |   -   |  -  |   ✓   |
+| NA           |   -   |  -  |   ✓   |
+| ACTIVSg2000  |   -   |  -  |   ✓   |
+| maritime_gas |   -   |  -  |   ✓   |
+| ercot286     |   -   |  -  |   ✓   |
+| ercot286     |       |     |   ✓   |
 
 # User Experience Survey
 
