@@ -149,6 +149,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/CURENT
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: https://www.youtube.com/@curentltb
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/company/76122605
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:
@@ -191,6 +197,8 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /_site # ignore Jekyll build output
+  - minimal-mistakes-jekyll.gemspec # exclude the .gemspec file
 keep_files:
   - .git
   - .svn
