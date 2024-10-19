@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "T-and-D Co-Simulation Framework"
+title: "T-D Co-Simulation Framework"
 excerpt: An efficient open-source framework for dynamic co-simulation of transmission and distribution networks to manage DER frequency response.
 tags:
   - showcase
