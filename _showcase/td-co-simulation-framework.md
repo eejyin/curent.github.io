@@ -5,6 +5,8 @@ excerpt: An efficient open-source framework for dynamic co-simulation of transmi
 tags:
   - showcase
   - research
+  - frequency support
+  - DER
 share: true
 related: true
 date: 2021-10-13
