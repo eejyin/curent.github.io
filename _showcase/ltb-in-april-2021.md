@@ -1,14 +1,20 @@
 ---
-layout: splash
+layout: single
 subheadline: "Large-Scale Testbed in April 2021"
 title: "A Virtual Power Grid for Closed-loop Controls in Research and Testing"
 excerpt: A seminar by Dr. Fangxing (Fran) Li at the Stanford Smart Grid Seminar, where he shared insights about CURENT LTB.
-# permalink:
+tags:
+  - seminar
+  - presentation
+  - introduction
+share: true
+related: true
+date: 2021-04-15
+last_modified_at: 2024-10-19
+time: false
+comments: true
+show_date: true
 ---
-
-## Recommended Citation
-
-<div data-doi="10.1109/MPE.2019.2959054" class="citation"></div>
 
 ## Presentation Recording
 
@@ -52,3 +58,7 @@ excerpt: A seminar by Dr. Fangxing (Fran) Li at the Stanford Smart Grid Seminar,
 ![Slide33](/assets/images/showcase/ltb-in-april-2021/Slide33.png)
 ![Slide34](/assets/images/showcase/ltb-in-april-2021/Slide34.png)
 ![Slide35](/assets/images/showcase/ltb-in-april-2021/Slide35.png)
+
+## Recommended Citation
+
+F. Li, K. Tomsovic and H. Cui, "A Large-Scale Testbed as a Virtual Power Grid: For Closed-Loop Controls in Research and Testing," in IEEE Power and Energy Magazine, vol. 18, no. 2, pp. 60-68, March-April 2020, doi: 10.1109/MPE.2019.2959054.
