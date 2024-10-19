@@ -330,3 +330,18 @@ defaults:
       comments: true
       share: true
       related: false
+  # showcase
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comment: true
+
+# Collections
+collections:
+  showcase:
+    output: true
+    permalink: /:collection/:path/

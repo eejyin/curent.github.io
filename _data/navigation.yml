@@ -3,7 +3,7 @@ main:
   - title: "Product"
     url: /product/
   - title: "Showcase"
-    url: /team/
+    url: /showcase/
   - title: "Team"
     url: /team/
   - title: "About"
