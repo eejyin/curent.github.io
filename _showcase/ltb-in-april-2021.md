@@ -11,15 +11,12 @@ share: true
 related: true
 date: 2021-04-15
 last_modified_at: 2024-10-19
-time: false
 comments: true
 show_date: true
 ---
-
 ## Presentation Recording
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/42icaxcoQm0?si=fRzkBFutniD6Y36P" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 ## Presentation Slides
 
