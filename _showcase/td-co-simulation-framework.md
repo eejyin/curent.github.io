@@ -1,6 +1,5 @@
 ---
 layout: single
-show_meta: false
 title: "Transmission-and-Distribution Co-Simulation Framework"
 excerpt: An efficient open-source framework for dynamic co-simulation of transmission and distribution networks to manage DER frequency response.
 tags:
