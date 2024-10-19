@@ -7,12 +7,11 @@ tags:
   - research
 share: true
 related: true
-date: 2024-01-22
+date: 2023-05-01
 last_modified_at: 2024-10-19
 comments: true
 show_date: true
 ---
-
 <figure>
   <embed src="/assets/images/showcase/evsfr.pdf" type="application/pdf" width="100%" height="160px" />
   <figcaption>Research Poster on CURENT Industry Conference</figcaption>
