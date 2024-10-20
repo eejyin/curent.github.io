@@ -19,7 +19,7 @@ Each project has its own documentation, where more details about installation an
 
 ### Operating System
 
-LTB and its subprojects are designed to be cross-platform and are compatible with Windows, macOS, and Linux. Note that [Windows Subsystem for Linux (WSL)][WSL] can be easier to use on Windows.
+LTB projects are designed to be cross-platform and are compatible with Windows, macOS, and Linux. Note that [Windows Subsystem for Linux (WSL)][WSL] can be easier to use on Windows.
 
 ### Environment Configuration
 
