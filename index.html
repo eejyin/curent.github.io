@@ -207,7 +207,7 @@ feature_row:
   <div class="row">
     <h2>Impact Map</h2>
     <div id="map" style="height: 600px; width: 1200px; margin: 0 auto; border: 1px solid #ccc;"></div>
-
+  
     <script>
       // Initialize the map with a global view
       var map = L.map('map', {
@@ -219,40 +219,59 @@ feature_row:
               [90, 180]
           ]
       });
-
+  
       // Add a tile layer to the map (OpenStreetMap tiles)
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
-
+  
+      // Function to get custom icons
       function getCustomIcon(feature) {
           let iconClass;
           switch (feature.properties['marker-symbol']) {
               case 'university':
                   iconClass = 'fas fa-university';
                   break;
-              case 'museum':
-                  iconClass = 'fas fa-landmark';
+              case 'company':
+                  iconClass = 'fas fa-building';
+                  break;
+              case 'lab':
+                  iconClass = 'fas fa-flask';
+                  break;
+              case 'headquarters':
+                  iconClass = 'fas fa-star';
                   break;
               default:
                   iconClass = 'fas fa-map-marker-alt';
           }
-
+  
           return L.divIcon({
-              html: `<i class="${iconClass}" style="color: ${feature.properties['marker-color']}; font-size: 24px;"></i>`,
+              html: `<i class="${iconClass}" style="color: ${feature.properties['marker-color'] || '#7992B1'}; font-size: 24px;"></i>`,
               className: 'custom-div-icon',
               iconSize: [24, 24],
               iconAnchor: [12, 24],
               popupAnchor: [0, -24]
           });
       }
-
+  
       // Load GeoJSON data from an external file
       fetch('/assets/mapdata.json')
           .then(response => response.json())
           .then(data => {
-              // Add GeoJSON data with custom markers and popups
-              L.geoJSON(data, {
+              // Separate headquarters features from others
+              const headquartersFeatures = [];
+              const otherFeatures = [];
+  
+              data.features.forEach(feature => {
+                  if (feature.properties['marker-symbol'] === 'headquarters') {
+                      headquartersFeatures.push(feature);
+                  } else {
+                      otherFeatures.push(feature);
+                  }
+              });
+  
+              // Add other features first
+              L.geoJSON(otherFeatures, {
                   pointToLayer: function (feature, latlng) {
                       return L.marker(latlng, { icon: getCustomIcon(feature) });
                   },
@@ -262,6 +281,27 @@ feature_row:
                           popupContent += `<br>${feature.properties.info}`;
                       }
                       layer.bindPopup(popupContent);
+                  }
+              }).addTo(map);
+  
+              // Add headquarters features last
+              L.geoJSON(headquartersFeatures, {
+                  pointToLayer: function (feature, latlng) {
+                      return L.marker(latlng, { icon: getCustomIcon(feature) });
+                  },
+                  onEachFeature: function (feature, layer) {
+                      let popupContent = `<b>${feature.properties.name}</b>`;
+                      if (feature.properties.info) {
+                          popupContent += `<br>${feature.properties.info}`;
+                      }
+                      layer.bindPopup(popupContent);
+
+                      // Bring headquarters markers to the front
+                      if (feature.properties['marker-symbol'] === 'headquarters') {
+                          layer.on('add', function () {
+                              this.bringToFront();
+                          });
+                      }
                   }
               }).addTo(map);
           })
