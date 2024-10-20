@@ -1,5 +1,6 @@
 ---
-title: "Tags"
-layout: tags
+title: "Posts by Tag"
 permalink: /tags/
+layout: tags
+author_profile: false
 ---
