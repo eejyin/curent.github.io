@@ -25,6 +25,13 @@ feature_row:
     excerpt: "Handles large-scale cases effortlessly, maintaining optimal performance."    
 ---
 
+<head>
+  <!-- Other HTML head elements -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+
 <style>
   h1 {
       /* font-family: "Monaco", cursive; */
@@ -196,4 +203,44 @@ feature_row:
       </div>
     </div>
   </div>
+
+  <div class="row">
+    <h2>Impact Map</h2>
+    <div id="map" style="height: 500px; width: 1000px; margin: 0 auto; border: 1px solid #ccc;"></div>
+
+    <script>
+      // Initialize the map with a global view
+      var map = L.map('map').setView([20, 0], 2);
+
+      // Add a tile layer to the map (OpenStreetMap tiles)
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      // Load GeoJSON data from an external file
+      fetch('/assets/mapdata.json')
+          .then(response => response.json())
+          .then(data => {
+              // Add GeoJSON data with popups
+              L.geoJSON(data, {
+                  onEachFeature: function (feature, layer) {
+                      if (feature.properties && feature.properties.name) {
+                          layer.bindPopup(feature.properties.name);
+                      }
+                  }
+              }).addTo(map);
+          })
+          .catch(error => console.error('Error loading GeoJSON data:', error));
+
+      // Mark UTK with a red marker
+      var redMarker = L.AwesomeMarkers.icon({
+        icon: 'circle',
+        markerColor: 'red',
+        prefix: 'fa'
+      });
+
+    </script>
+
+  </div>
+
 </div>
