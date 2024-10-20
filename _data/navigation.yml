@@ -10,3 +10,7 @@ main:
     url: /team/
   - title: "About"
     url: /about/
+  # - title: "Tags"
+  #   url: /tags/
+  # - title: "Categories"
+  #   url: /categories/
