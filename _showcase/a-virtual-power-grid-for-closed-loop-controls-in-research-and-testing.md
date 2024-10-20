@@ -2,9 +2,9 @@
 layout: single
 title: "A Virtual Power Grid for Closed-loop Controls in Research and Testing"
 excerpt: "LTB in Apirl 2021, presentation at the 2021 Stanford Smart Grid Seminar."
-tags:
-  - seminar
+categories:
   - presentation
+tags:
   - overview
   - video
 share: true

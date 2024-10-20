@@ -2,9 +2,9 @@
 layout: single
 title: "VIS for RTED of IBR-penetrated Power Systems"
 excerpt: "Virtual inertia scheduling in power systems to ensure secure and cost-effective inertia support."
-tags:
-  - showcase
+categories:
   - research
+tags:
   - IBR
   - virtual inertia
   - scheduling
@@ -16,7 +16,6 @@ last_modified_at: 2024-10-19
 comments: true
 show_date: true
 ---
-
 ## Abstract
 
 A new concept called virtual inertia scheduling (VIS) is proposed to efficiently handle the increasing penetration of inverter-based resources (IBRs) in power systems. VIS is an inertia management framework that targets security-constrained and economy-oriented inertia scheduling and generation dispatch with a large scale of renewable generations. Specifically, it determines the appropriate power setting points and reserved capacities of synchronous generators and IBRs, as well as the control modes and control parameters of IBRs to provide secure and cost-effective inertia support. First, a uniform system model is employed to quantify the frequency dynamics of the IBRs-penetrated power systems after disturbances. Leveraging this model, the \textit{s}-domain and time-domain analytical responses of IBRs with inertia support capability are derived. Then, VIS-based real-time economic dispatch (VIS-RTED) is formulated to minimize generation and reserve costs, with full consideration of dynamic frequency constraints and derived inertia support reserve constraints. The virtual inertia and damping of IBRs are formulated as decision variables. A deep learning-assisted linearization approach is further employed to address the non-linearity of dynamic constraints. Finally, VIS-RTED is demonstrated on a two-machine system and a modified IEEE 39-bus system. A full-order time-domain simulation is performed to verify the scheduling results.

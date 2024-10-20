@@ -2,11 +2,12 @@
 layout: single
 title: "T-D Co-Simulation Framework"
 excerpt: An efficient open-source framework for dynamic co-simulation of transmission and distribution networks to manage DER frequency response.
-tags:
-  - showcase
+categories:
   - research
+tags:
   - frequency support
   - DER
+  - cosimulation
 share: true
 related: true
 date: 2021-10-13

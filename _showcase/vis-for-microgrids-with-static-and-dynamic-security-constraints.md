@@ -2,9 +2,9 @@
 layout: single
 title: "VIS for Microgrids with Static and Dynamic Security Constraints"
 excerpt: "Virtual inertia scheduling for microgrids with high IBR penetration to balance economic operation and dynamic performance."
-tags:
-  - showcase
+categories:
   - research
+tags:
   - IBR
   - virtual inertia
   - scheduling

@@ -2,9 +2,12 @@
 layout: single
 title: "EV Deliverable Provision of SFR"
 excerpt: "A control strategy for EV aggregation to provide SFR while respecting charging time constraints."
-tags:
-  - showcase
+categories:
   - research
+tags:
+  - DER
+  - frequency support
+  - cosimulation
 share: true
 related: true
 date: 2023-05-01

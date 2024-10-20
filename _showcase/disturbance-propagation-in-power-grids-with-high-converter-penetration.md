@@ -2,9 +2,9 @@
 layout: single
 title: "Disturbance Propagation in Power Grids With High Converter Penetration"
 excerpt: "Analytical model for disturbance propagation in power systems."
-tags:
-  - showcase
+categories:
   - research
+tags:
   - IBR
   - virtual inertia
   - EMW

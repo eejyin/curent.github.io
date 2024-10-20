@@ -2,9 +2,11 @@
 layout: single
 title: "A Comprehensive Power System Testing Platform"
 excerpt: "LTB in April 2023, presentation at CURENT Industry Conference."
-tags:
+categories:
   - presentation
+tags:
   - overview
+  - conference
 share: true
 related: true
 date: 2023-04-18

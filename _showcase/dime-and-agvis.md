@@ -2,9 +2,9 @@
 layout: single
 title: "DiME and AGVis for LTB"
 excerpt: "Jinning Wang presented DiME and AGVis at 2023 North American Power Symposium."
+categories:
+  - presentation
 tags:
-  - showcase
-  - research
   - conference
   - overview
 share: true
@@ -14,7 +14,6 @@ last_modified_at: 2024-10-19
 comments: true
 show_date: true
 ---
-
 ## Presentation Slides
 
 ![Slide1](/assets/images/showcase/dime-and-agvis/Slide1.png)

@@ -2,11 +2,10 @@
 layout: single
 title: "Advancing a Decarbonized Power Grid"
 excerpt: "A Transient Stability Perspective with the CURENT Large-Scale Testbed (LTB)"
-tags:
-  - showcase
-  - research
-  - overview
+categories:
   - presentation
+tags:
+  - overview
   - video
 share: true
 related: true
