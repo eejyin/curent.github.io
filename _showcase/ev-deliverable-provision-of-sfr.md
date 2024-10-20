@@ -16,7 +16,7 @@ comments: true
 show_date: true
 ---
 <figure>
-  <embed src="/assets/images/showcase/evsfr.pdf" type="application/pdf" width="100%" height="160px" />
+  <img src="/assets/images/showcase/evsfr.png" alt="evsfr poster">
   <figcaption>Research Poster on CURENT Industry Conference</figcaption>
 </figure>
 
