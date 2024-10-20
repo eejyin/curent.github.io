@@ -1,34 +1,27 @@
 ---
-layout: page-fullwidth
-show_meta: false
-subheadline: ""
+layout: single
 title: "Getting Started with LTB"
-permalink: "/showcase/quickstart/"
-header: no
+excerpt: "A quick start guide for new users."
+share: true
+related: fasle
+date: 2024-01-08
+last_modified_at: 2024-10-19
+comments: true
+show_date: false
+toc: true
+toc_sticky: true
 ---
-
-<div class="row">
-<div class="medium-4 medium-push-8 columns" markdown="1">
-<div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-</div>
-</div><!-- /.medium-4.columns -->
-
-<div class="medium-8 medium-pull-4 columns" markdown="1">
 
 This page provides a quick start guide for new users to get started with LTB.
 Each project has its own documentation, where more details about installation and example usage can be found.
 
-# Installation
+## Installation
 
-## Operating System
+### Operating System
 
 LTB and its subprojects are designed to be cross-platform and are compatible with Windows, macOS, and Linux. Note that [Windows Subsystem for Linux (WSL)][WSL] can be easier to use on Windows.
 
-## Environment Configuration
+### Environment Configuration
 
 If you are new to Python and want to get started quickly, you can use Mambaforge, which is a conda-like package manager configured with conda-forge.
 
@@ -61,11 +54,11 @@ mamba activate ltb
 You will need to activate the andes environment ***every time*** in a new Miniforge Prompt or shell.
 If you have completed these steps without error, you now have a working Python environment. See the commands at the top for Getting started.
 
-## Package Installation
+### Package Installation
 
 There are two modes of installation: development and release.
 
-### Release Mode
+#### Release Mode
 
 Regular releases are available on distribution channels such as PyPI and conda-forge.
 They can be installed with pip or conda.
@@ -77,27 +70,27 @@ mamba install -c conda-forge andes
 Note that AMS and AGVis ***has not*** been deployed to PyPI and conda-forge with continuous integration and deployment yet.
 They need to be installed from source code.
 
-### Development Mode
+#### Development Mode
 
 For model development purpose, you may want to install the latest version and play with the source code.
 
 [Develop Install](https://docs.andes.app/en/latest/getting_started/install.html#develop-install) discusses how to install ANDES in development mode.
 It is also applicable to AMS and AGVis.
 
-# Hands-on Tutorial
+## Hands-on Tutorial
 
-It is recommended to go through [ANDES Examples](https://docs.andes.app/en/latest/examples/index.html) and [AMS Examples](https://ltb.readthedocs.io/projects/ams/en/latest/examples/index.html) to get started with LTB.
+It is recommended to go through [ANDES Examples](https://docs.andes.app/en/latest/examples/index.html) and [AMS Examples](https://ltb.readthedocs.io/projects/ams/en/latest/examples/index.html) to get familiar with the LTB usage.
 
-# Usage
+## Usage
 
-## Jupyter Notebook
+### Jupyter Notebook
 
 Jupyter notebooks allow interactive execution of code snippets, and is recommended for new users to get started with LTB.
 Jupyter notebook examples are available in the source code repository.
 They can be downloaded and run locally as getting started examples.
 Jupyter sometimes needs to be installed separately.
 
-## Command Line Interface
+### Command Line Interface
 
 In terminal or command prompt, you can also use the program.
 For example, permeable information is available:
@@ -106,29 +99,29 @@ For example, permeable information is available:
 andes
 ```
 
-## Binder
+### Binder
 
 With Binder, open notebooks in an executable environment, making your code immediately reproducible by anyone, anywhere.
 
 [Try ANDES online](https://mybinder.org/v2/gh/cuihantao/andes/master)
 
-# Related Topics
+## Related Topics
 
-## Research Code
+### Research Code
 
 [The Good Research Code Handbook](https://goodresearch.dev) by Patrick Mineault
 
-## Software Development
+### Software Development
 
 1. J. K. Ousterhout, A philosophy of software design, First edition. Palo Alto, CA: Yaknyam Press, 2018.
 
-## Software Quality
+### Software Quality
 
 [Semantic Versioning][Semantic Versioning];
 [Continuous Integration][Continuous Integration];
 [Continuous Deployment][Continuous Deployment]
 
-## Related Projects
+### Related Projects
 
 Datasets
 
@@ -143,7 +136,7 @@ Tools
 [pandapower][pandapower];
 [PyPSA][PyPSA]
 
-* * *
+---
 
 [Better Grids]: https://db.bettergrids.org
 [G PST-Tools]: https://g-pst.github.io/tools/
