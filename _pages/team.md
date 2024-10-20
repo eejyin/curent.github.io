@@ -139,16 +139,19 @@ author_profile: false
       <div class="team-member">
         <img src="/assets/images/teams/QZhang.jpeg" alt="QZhang">
         <h3><a href="https://www.linkedin.com/in/qiwei-zhang-12b99a153/" target="_blank">Dr. Qiwei Zhang</a></h3>
+        <p>Modeling Consultant for Scheduling</p>
         <p>Alumni of University of Tennessee, Knoxville</p>
       </div>
       <div class="team-member">
         <img src="/assets/images/teams/BShe.jpeg" alt="BShe">
         <h3><a href="https://shebuxin.github.io/" target="_blank">Dr. Buxin She</a></h3>
+        <p>Modeling Consultant for IBR</p>
         <p>Alumni of University of Tennessee, Knoxville</p>
       </div>
       <div class="team-member">
         <img src="/assets/images/teams/HShuai.jpeg" alt="HShuai">
         <h3><a href="https://sites.google.com/view/hangshuai/home?authuser=0" target="_blank">Dr. Hang Shuai</a></h3>
+        <p>Modeling Consultant for Scheduling</p>
         <p>Alumni of University of Tennessee, Knoxville</p>
       </div>
     </div>
