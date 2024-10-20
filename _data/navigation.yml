@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Getting Started"
+    url: /getting-started/
   - title: "Product"
     url: /product/
   - title: "Showcase"

@@ -1,7 +1,8 @@
 ---
 layout: single
-title: "Getting Started with LTB"
+title: "Getting Started"
 excerpt: "A quick start guide for new users."
+permalink: /getting-started/
 share: true
 related: fasle
 date: 2024-01-08
@@ -11,7 +12,6 @@ show_date: false
 toc: true
 toc_sticky: true
 ---
-
 This page provides a quick start guide for new users to get started with LTB.
 Each project has its own documentation, where more details about installation and example usage can be found.
 
@@ -39,7 +39,7 @@ Second, create an environment for LTB.
 Open Terminal (on Linux or macOS) or Miniforge Prompt (on Windows, not cmd!!).
 Make sure you are in a conda environment - you should see (base) prepended to the command-line prompt, such as (base) C:\Users\username>.
 
-Create an environment for LTB (recommended), you can change the environment name <ltb> and python version <3.8> to desired ones.
+Create an environment for LTB (recommended), you can change the environment name `<ltb>` and python version <3.8> to desired ones.
 
 ```bash
 mamba create --name ltb python=3.8
@@ -141,12 +141,10 @@ Tools
 [Better Grids]: https://db.bettergrids.org
 [G PST-Tools]: https://g-pst.github.io/tools/
 [pglib]: https://github.com/power-grid-lib/pglib-opf
-
 [MATPOWER]: https://matpower.org
 [PYPOWER]: https://github.com/rwl/PYPOWER
 [pandapower]: https://pandapower.readthedocs.io
 [PyPSA]: https://pypsa.org
-
 [WSL]: https://learn.microsoft.com/en-us/windows/wsl/install
 [Semantic Versioning]: https://semver.org
 [Continuous Integration]: https://en.wikipedia.org/wiki/Continuous_integration
