@@ -206,11 +206,19 @@ feature_row:
 
   <div class="row">
     <h2>Impact Map</h2>
-    <div id="map" style="height: 500px; width: 1000px; margin: 0 auto; border: 1px solid #ccc;"></div>
+    <div id="map" style="height: 600px; width: 1200px; margin: 0 auto; border: 1px solid #ccc;"></div>
 
     <script>
       // Initialize the map with a global view
-      var map = L.map('map').setView([20, 0], 2);
+      var map = L.map('map', {
+          center: [20, 0],
+          zoom: 2,
+          worldCopyJump: true,
+          maxBounds: [
+              [-90, -180],
+              [90, 180]
+          ]
+      });
 
       // Add a tile layer to the map (OpenStreetMap tiles)
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -231,13 +239,6 @@ feature_row:
               }).addTo(map);
           })
           .catch(error => console.error('Error loading GeoJSON data:', error));
-
-      // Mark UTK with a red marker
-      var redMarker = L.AwesomeMarkers.icon({
-        icon: 'circle',
-        markerColor: 'red',
-        prefix: 'fa'
-      });
 
     </script>
 
