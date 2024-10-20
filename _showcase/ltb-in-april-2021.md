@@ -6,6 +6,7 @@ tags:
   - seminar
   - presentation
   - introduction
+  - video
 share: true
 related: true
 date: 2021-04-15
@@ -13,7 +14,6 @@ last_modified_at: 2024-10-19
 comments: true
 show_date: true
 ---
-
 Dr. Fangxing (Fran) Li presented a seminar at the Stanford Smart Grid Seminar, where he shared insights about CURENT LTB.
 
 ## Presentation Recording
