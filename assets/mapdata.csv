@@ -1,0 +1,4 @@
+name,latitude,longitude,marker-symbol,marker-color,info
+CURENT; University of Tennessee Knoxville,35.9517,-83.9300,headquarters,red,"Sponsor, Developer, Publication"
+Mississippi State University,33.454,-88.789,university,,Developer, Publication
+University of Denver,39.6783,-104.9622,university,,Contract, Publication
