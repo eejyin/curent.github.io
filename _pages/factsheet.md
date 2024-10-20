@@ -8,6 +8,6 @@ comments: false
 show_date: false
 ---
 <figure>
-  <img src="/assets/images/showcase/Factsheet.png" alt="factsheet">
+  <img src="/assets/images/Factsheet.png" alt="factsheet">
   <figcaption>LTB Factsheet</figcaption>
 </figure>
