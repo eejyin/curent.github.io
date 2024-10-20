@@ -156,157 +156,158 @@ feature_row:
     </p>
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-    <h2>Partners & Users</h2>
-    <div class="logo-container">
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/CURENT.png" alt="CURENT">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/UTK.png" alt="UTK">
-      </div>
-    </div>
-    <div class="logo-container">
-      <div class="partner-logo">
-        <img src="/assets/images/logos/NSF2.png" alt="US National Science Foundation">
-      </div>
-      <div class="partner-logo">
-        <img src="/assets/images/logos/DOE.png" alt="US Department of Energy">
-      </div>
-    </div>
-    <div class="logo-container">
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/OSU.png" alt="Oklahoma State University">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/MSU.png" alt="Mississippi State University">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/MST.png" alt="Missouri S&T">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/LLNL.png" alt="Lawrence Livermore National Laboratory">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/ACHL2.png" alt="Achillea Research">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/UDenver.png" alt="University of Denver">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/RTX2.png" alt="Raytheon Technologies">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/NREL.jpeg" alt="National Renewable Energy Laboratory">
-      </div>
-      <div class="partner-logo2">
-        <img src="/assets/images/logos/PNNL3.png" alt="Pacific Northwest National Laboratory">
-      </div>
-    </div>
   </div>
 
   <div class="row">
-    <h2>Impact Map</h2>
-    <div id="map" style="height: 600px; width: 1200px; margin: 0 auto; border: 1px solid #ccc;"></div>
-  
-    <script>
-      // Initialize the map with a global view
-      var map = L.map('map', {
-          center: [20, 0],
-          zoom: 2,
-          worldCopyJump: true,
-          maxBounds: [
-              [-90, -180],
-              [90, 180]
-          ]
-      });
-  
-      // Add a tile layer to the map (OpenStreetMap tiles)
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      }).addTo(map);
-  
-      // Function to get custom icons
-      function getCustomIcon(feature) {
-          let iconClass;
-          switch (feature.properties['marker-symbol']) {
-              case 'university':
-                  iconClass = 'fas fa-university';
-                  break;
-              case 'company':
-                  iconClass = 'fas fa-building';
-                  break;
-              case 'lab':
-                  iconClass = 'fas fa-flask';
-                  break;
-              case 'headquarters':
-                  iconClass = 'fas fa-star';
-                  break;
-              default:
-                  iconClass = 'fas fa-map-marker-alt';
-          }
-  
-          return L.divIcon({
-              html: `<i class="${iconClass}" style="color: ${feature.properties['marker-color'] || '#7992B1'}; font-size: 24px;"></i>`,
-              className: 'custom-div-icon',
-              iconSize: [24, 24],
-              iconAnchor: [12, 24],
-              popupAnchor: [0, -24]
-          });
-      }
-  
-      // Load GeoJSON data from an external file
-      fetch('/assets/mapdata.json')
-          .then(response => response.json())
-          .then(data => {
-              // Separate headquarters features from others
-              const headquartersFeatures = [];
-              const otherFeatures = [];
-  
-              data.features.forEach(feature => {
-                  if (feature.properties['marker-symbol'] === 'headquarters') {
-                      headquartersFeatures.push(feature);
-                  } else {
-                      otherFeatures.push(feature);
-                  }
-              });
-  
-              // Add other features first
-              L.geoJSON(otherFeatures, {
-                  pointToLayer: function (feature, latlng) {
-                      return L.marker(latlng, { icon: getCustomIcon(feature) });
-                  },
-                  onEachFeature: function (feature, layer) {
-                      let popupContent = `<b>${feature.properties.name}</b>`;
-                      if (feature.properties.info) {
-                          popupContent += `<br>${feature.properties.info}`;
-                      }
-                      layer.bindPopup(popupContent);
-                  }
-              }).addTo(map);
-  
-              // Add headquarters features last
-              L.geoJSON(headquartersFeatures, {
-                  pointToLayer: function (feature, latlng) {
-                      return L.marker(latlng, { icon: getCustomIcon(feature) });
-                  },
-                  onEachFeature: function (feature, layer) {
-                      let popupContent = `<b>${feature.properties.name}</b>`;
-                      if (feature.properties.info) {
-                          popupContent += `<br>${feature.properties.info}`;
-                      }
-                      layer.bindPopup(popupContent);
+    <h2>Partners & Users</h2>
 
-                      // Bring headquarters markers to the front
-                      if (feature.properties['marker-symbol'] === 'headquarters') {
-                          layer.on('add', function () {
-                              this.bringToFront();
-                          });
-                      }
-                  }
-              }).addTo(map);
-          })
-          .catch(error => console.error('Error loading GeoJSON data:', error));
-    </script>
+    <div id="map" style="height: 600px; width: 1200px; margin: 0 auto; border: 1px solid #ccc;"></div>
+
+      <script>
+        // Initialize the map with a global view
+        var map = L.map('map', {
+            center: [20, 0],
+            zoom: 2,
+            worldCopyJump: true,
+            maxBounds: [
+                [-90, -180],
+                [90, 180]
+            ]
+        });
+    
+        // Add a tile layer to the map (OpenStreetMap tiles)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    
+        // Function to get custom icons
+        function getCustomIcon(feature) {
+            let iconClass;
+            switch (feature.properties['marker-symbol']) {
+                case 'university':
+                    iconClass = 'fas fa-university';
+                    break;
+                case 'company':
+                    iconClass = 'fas fa-building';
+                    break;
+                case 'lab':
+                    iconClass = 'fas fa-flask';
+                    break;
+                case 'headquarters':
+                    iconClass = 'fas fa-star';
+                    break;
+                default:
+                    iconClass = 'fas fa-map-marker-alt';
+            }
+    
+            return L.divIcon({
+                html: `<i class="${iconClass}" style="color: ${feature.properties['marker-color'] || '#7992B1'}; font-size: 24px;"></i>`,
+                className: 'custom-div-icon',
+                iconSize: [16, 16],
+                iconAnchor: [8, 16],
+                popupAnchor: [0, -16]
+            });
+        }
+
+        // Load GeoJSON data from an external file
+        fetch('/assets/mapdata.json')
+            .then(response => response.json())
+            .then(data => {
+                // Separate headquarters features from others
+                const headquartersFeatures = [];
+                const otherFeatures = [];
+    
+                data.features.forEach(feature => {
+                    if (feature.properties['marker-symbol'] === 'headquarters') {
+                        headquartersFeatures.push(feature);
+                    } else {
+                        otherFeatures.push(feature);
+                    }
+                });
+    
+                // Add other features first
+                L.geoJSON(otherFeatures, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, { icon: getCustomIcon(feature) });
+                    },
+                    onEachFeature: function (feature, layer) {
+                        let popupContent = `<b>${feature.properties.name}</b>`;
+                        if (feature.properties.info) {
+                            popupContent += `<br>${feature.properties.info}`;
+                        }
+                        layer.bindPopup(popupContent);
+                    }
+                }).addTo(map);
+    
+                // Add headquarters features last
+                L.geoJSON(headquartersFeatures, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, { icon: getCustomIcon(feature) });
+                    },
+                    onEachFeature: function (feature, layer) {
+                        let popupContent = `<b>${feature.properties.name}</b>`;
+                        if (feature.properties.info) {
+                            popupContent += `<br>${feature.properties.info}`;
+                        }
+                        layer.bindPopup(popupContent);
+
+                        // Bring headquarters markers to the front
+                        if (feature.properties['marker-symbol'] === 'headquarters') {
+                            layer.on('add', function () {
+                                this.bringToFront();
+                            });
+                        }
+                    }
+                }).addTo(map);
+            })
+            .catch(error => console.error('Error loading GeoJSON data:', error));
+      </script>
+  </div>
+
+  <div class="logo-container">
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/CURENT.png" alt="CURENT">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/UTK.png" alt="UTK">
+    </div>
+  </div>
+  <div class="logo-container">
+    <div class="partner-logo">
+      <img src="/assets/images/logos/NSF2.png" alt="US National Science Foundation">
+    </div>
+    <div class="partner-logo">
+      <img src="/assets/images/logos/DOE.png" alt="US Department of Energy">
+    </div>
+  </div>
+  <div class="logo-container">
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/OSU.png" alt="Oklahoma State University">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/MSU.png" alt="Mississippi State University">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/MST.png" alt="Missouri S&T">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/LLNL.png" alt="Lawrence Livermore National Laboratory">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/ACHL2.png" alt="Achillea Research">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/UDenver.png" alt="University of Denver">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/RTX2.png" alt="Raytheon Technologies">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/NREL.jpeg" alt="National Renewable Energy Laboratory">
+    </div>
+    <div class="partner-logo2">
+      <img src="/assets/images/logos/PNNL3.png" alt="Pacific Northwest National Laboratory">
+    </div>
   </div>
 
 </div>
