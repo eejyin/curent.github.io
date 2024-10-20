@@ -1,16 +1,11 @@
 ---
 title: "Product"
 permalink: /product/
-excerpt: "A post to test disabling author sidebar."
 layout: splash
 author_profile: false
-last_modified_at: 2021-03-03T16:20:02-05:00
 ---
 
-
-LTB platform contains a set of power system analysis packages for power system research prototyping.
-
-# Packages
+## Packages
 
 |                           | ANDES                                                                                                                                                                                                                                                    | AMS                                                                                                                                                                                                                      | AGVis                                                                                                                                                                                                                         | DiME                                                                                                                                                                                                                   |
 |--------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,7 +15,7 @@ LTB platform contains a set of power system analysis packages for power system r
 | Documentation | [ ![Doc-ANDES]( https://readthedocs.org/projects/andes/badge/?version=latest ) ]( https://andes.readthedocs.io/en/latest/?badge=latest )                                                                                                                 | [ ![Doc-AMS]( https://readthedocs.org/projects/ams/badge/?version=latest ) ]( https://ltb.readthedocs.io/projects/ams/en/latest/?badge=latest )                                                                          | [ ![Doc AGVis]( https://readthedocs.org/projects/agvis/badge/?version=latest ) ]( https://ltb.readthedocs.io/projects/agvis/en/latest/?badge=latest )                                                                        | [ ![Doc-DiME]( https://readthedocs.org/projects/ltbdime/badge/?version=latest ) ]( https://ltb.readthedocs.io/projects/dime/en/latest/?badge=latest )                                                                  |
 |             GitHub Action | [ ![GA-ANDES]( https://github.com/curent/andes/workflows/Python%20application/badge.svg ) ]( https://github.com/curent/andes/actions )                                                                                                                   | [ ![GA-AMS]( https://github.com/CURENT/ams/workflows/Python%20application/badge.svg ) ]( https://github.com/curent/ams/actions )                                                                                         |                                                                                                                                                                                                                               |                                                                                                                                                                                                                        |
 
-# Datasets
+## Datasets
 
 Datasets for ANDES, AMS, and AGVis are included with their respective packages.
 Currently, LTB ships with 13 cases for ANDES, 7 cases for AMS, and 8 cases for AGVis.
@@ -49,8 +44,7 @@ A summary table is listed below.
 | ercot286     |   -   |  -  |   ✓   |
 | ercot286     |       |     |   ✓   |
 
-# User Experience Survey
+## User Experience Survey
 
 We are conducting a user experience survey to better understand the needs of our users.
-
 The 5-min survey is in Google Forms and constantly open for participation, [take the survey](https://docs.google.com/forms/d/e/1FAIpQLSevqXhwgZN1Ti7hDGyLlZc_O_ItT0aWDcMIbdst9_tFjQdf2w/viewform?usp=pp_url&entry.674898372=Yes,+with+my+affiliation+publicly&entry.906600198=University+of+Tennessee,+Knoxville&entry.1011451186=Jinning+Wang,+jwang175@vols.utk.edu&entry.2053374919=Student&entry.684954545=Colleagues+or+friends&entry.923622624=ANDES&entry.1775704341=Academic+research&entry.643024236=10.1109/TSG.2024.3356948&entry.1127139035=4&entry.990272755=Yes).
