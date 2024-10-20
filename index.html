@@ -225,23 +225,48 @@ feature_row:
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
+      function getCustomIcon(feature) {
+          let iconClass;
+          switch (feature.properties['marker-symbol']) {
+              case 'university':
+                  iconClass = 'fas fa-university';
+                  break;
+              case 'museum':
+                  iconClass = 'fas fa-landmark';
+                  break;
+              default:
+                  iconClass = 'fas fa-map-marker-alt';
+          }
+
+          return L.divIcon({
+              html: `<i class="${iconClass}" style="color: ${feature.properties['marker-color']}; font-size: 24px;"></i>`,
+              className: 'custom-div-icon',
+              iconSize: [24, 24],
+              iconAnchor: [12, 24],
+              popupAnchor: [0, -24]
+          });
+      }
+
       // Load GeoJSON data from an external file
       fetch('/assets/mapdata.json')
           .then(response => response.json())
           .then(data => {
-              // Add GeoJSON data with popups
+              // Add GeoJSON data with custom markers and popups
               L.geoJSON(data, {
+                  pointToLayer: function (feature, latlng) {
+                      return L.marker(latlng, { icon: getCustomIcon(feature) });
+                  },
                   onEachFeature: function (feature, layer) {
-                      if (feature.properties && feature.properties.name) {
-                          layer.bindPopup(feature.properties.name);
+                      let popupContent = `<b>${feature.properties.name}</b>`;
+                      if (feature.properties.info) {
+                          popupContent += `<br>${feature.properties.info}`;
                       }
+                      layer.bindPopup(popupContent);
                   }
               }).addTo(map);
           })
           .catch(error => console.error('Error loading GeoJSON data:', error));
-
     </script>
-
   </div>
 
 </div>

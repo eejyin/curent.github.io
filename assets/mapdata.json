@@ -5,7 +5,9 @@
       "type": "Feature",
       "properties": {
         "name": "University of Tennessee, Knoxville",
-        "marker-color": "red"
+        "marker-color": "#007800",
+        "marker-symbol": "university",
+        "info": "LTB Headquarter."
       },
       "geometry": {
         "type": "Point",
