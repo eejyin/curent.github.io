@@ -14,7 +14,6 @@ last_modified_at: 2024-10-19
 comments: true
 show_date: true
 ---
-
 The 11th Annual Industry Conference took place at the University of Tennessee, Knoxville's Student Center and Min H. Kao Engineering Building on April 18-19, 2023.
 During the conference, the LTB team presented the project's latest developments and milestones.
 
