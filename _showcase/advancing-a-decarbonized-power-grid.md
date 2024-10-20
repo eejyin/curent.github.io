@@ -5,7 +5,7 @@ excerpt: "A Transient Stability Perspective with the CURENT Large-Scale Testbed 
 tags:
   - showcase
   - research
-  - introduction
+  - overview
   - presentation
   - video
 share: true
