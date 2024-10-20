@@ -4,10 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "University of Tennessee, Knoxville",
+        "name": "CURENT; University of Tennessee Knoxville",
         "marker-color": "red",
         "marker-symbol": "headquarters",
-        "info": "CURENT"
+        "info": "Sponsor, Developer, Publication"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +18,8 @@
       "type": "Feature",
       "properties": {
         "name": "Mississippi State University",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Developer, Publication"
       },
       "geometry": {
         "type": "Point",
@@ -29,7 +30,8 @@
       "type": "Feature",
       "properties": {
         "name": "University of Denver",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Contract, Publication"
       },
       "geometry": {
         "type": "Point",
@@ -40,7 +42,8 @@
       "type": "Feature",
       "properties": {
         "name": "National Renewable Energy Laboratory",
-        "marker-symbol": "lab"
+        "marker-symbol": "lab",
+        "info": "Contract, Publication"
       },
       "geometry": {
         "type": "Point",
@@ -51,7 +54,8 @@
       "type": "Feature",
       "properties": {
         "name": "Pacific Northwest National Laboratory",
-        "marker-symbol": "lab"
+        "marker-symbol": "lab",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -62,7 +66,8 @@
       "type": "Feature",
       "properties": {
         "name": "Lawrence Livermore National Laboratory",
-        "marker-symbol": "lab"
+        "marker-symbol": "lab",
+        "info": "Contract"
       },
       "geometry": {
         "type": "Point",
@@ -73,7 +78,8 @@
       "type": "Feature",
       "properties": {
         "name": "Universidad Nacional Autónoma de México",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -84,7 +90,8 @@
       "type": "Feature",
       "properties": {
         "name": "North Carolina State University",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Developer, Publication"
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +102,8 @@
       "type": "Feature",
       "properties": {
         "name": "University of Washington",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -106,7 +114,8 @@
       "type": "Feature",
       "properties": {
         "name": "Huazhong University of Science and Technology",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +126,8 @@
       "type": "Feature",
       "properties": {
         "name": "Argonne National Laboratory",
-        "marker-symbol": "lab"
+        "marker-symbol": "lab",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -128,7 +138,8 @@
       "type": "Feature",
       "properties": {
         "name": "Grid Protection Alliance, Inc.",
-        "marker-symbol": "company"
+        "marker-symbol": "company",
+        "info": "Contract"
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +150,8 @@
       "type": "Feature",
       "properties": {
         "name": "Rensselaer Polytechnic Institute",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Developer, Publication"
       },
       "geometry": {
         "type": "Point",
@@ -150,7 +162,8 @@
       "type": "Feature",
       "properties": {
         "name": "Binghamton University – SUNY",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +174,8 @@
       "type": "Feature",
       "properties": {
         "name": "Texas A&M University",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -172,7 +186,8 @@
       "type": "Feature",
       "properties": {
         "name": "University of South-Eastern Norway",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -183,7 +198,8 @@
       "type": "Feature",
       "properties": {
         "name": "Nanyang Technological University",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -194,7 +210,8 @@
       "type": "Feature",
       "properties": {
         "name": "Tsinghua University",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -205,7 +222,8 @@
       "type": "Feature",
       "properties": {
         "name": "Electric Power Dispatching and Control Center, China Southern Power Grid Co., Ltd.",
-        "marker-symbol": "company"
+        "marker-symbol": "company",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
@@ -216,7 +234,8 @@
       "type": "Feature",
       "properties": {
         "name": "University of California, Santa Cruz",
-        "marker-symbol": "university"
+        "marker-symbol": "university",
+        "info": "Publication"
       },
       "geometry": {
         "type": "Point",
