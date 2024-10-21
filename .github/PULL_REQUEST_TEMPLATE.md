@@ -2,7 +2,7 @@
   Thank you for creating a Pull Request! Before you submit, please make sure
   you've done the following:
 
-  - Read the contributing guidelines at https://github.com/your-repo#contributing
+  - Read the contributing guidelines at https://github.com/CURENT/curent.github.io#contributing
 -->
 
 <!--
@@ -63,5 +63,5 @@
 - [ ] I have updated the documentation (if applicable).
 
 <!--
-  Please confirm that you want to submit this Pull Request to the LTB project by deleting this comment block.
+  Please confirm that you want to submit this Pull Request to the CURENT project by deleting this comment block.
 -->
