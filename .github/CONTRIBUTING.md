@@ -1,23 +1,23 @@
 # Contributing
 
-Found a typo in the documentation or interested in [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+Found a typo or inaccurate information in the documentation? Want to add a new showcase or an affiliation to the map? We have specific issue templates to help you with these contributions:
 
-For help with using the theme or general Jekyll support questions, please use the [Jekyll Talk forums](https://talk.jekyllrb.com/).
+- Bug Report (including typos and inaccuracies)
+- Add Showcase
+- Add Affiliation to LTB Map
 
-Minimal Mistakes has been designed as a base for you to customize and fit your 
-site's unique needs. Please keep this in mind when requesting features and/or 
-submitting pull requests. If it's not something that most people will use, I 
-probably won't consider it. When in doubt ask.
+For other types of contributions or if you're interested in fixing a bug, please submit an issue or pull request. If this is your first pull request, it may be helpful to read up on the GitHub Flow first.
 
-This goes for author sidebar links and "share button" additions -- I have no 
-intention of merging in every possibly option, the essentials are there to get 
-you started :smile:.
+For help with using the theme or general Jekyll support questions, please use the Jekyll Talk forums.
+
+Our website is built using the Jekyll theme Minimal Mistakes. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, it might not be considered. When in doubt, feel free to ask.
+
+This also applies to author sidebar links and "share button" additions -- the essentials are there to get you started :smile:.
 
 ## Pull Requests
 
 When submitting a pull request:
 
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. 
-   `my-awesome-new-feature`) and describe the feature or fix.
+1. Clone the repository.
+2. Create a branch off of `master` and give it a meaningful name (e.g., `XX-fix`) and describe the feature or fix.
 3. Open a pull request on GitHub.
