@@ -64,22 +64,27 @@ function getCustomIcon(markerSymbol, markerColor) {
     switch (markerSymbol) {
         case '0':  // headquarter
             iconClass = 'fas fa-star';
+            defaultColor = 'red';
             break;
         case '1':  // university
             iconClass = 'fas fa-university';
+            defaultColor = '#7792B1';
             break;
         case '2':  // lab
             iconClass = 'fas fa-flask';
+            defaultColor = '#007800';
             break;
         case '3':  // company
             iconClass = 'fas fa-building';
+            defaultColor = '#AA6C39';
             break;
         default:  // default to map marker
             iconClass = 'fas fa-map-marker-alt';
+            defaultColor = '#7992B1';
     }
 
     return L.divIcon({
-        html: `<i class="${iconClass}" style="color: ${markerColor || '#7992B1'}; font-size: 16px;"></i>`,
+        html: `<i class="${iconClass}" style="color: ${markerColor || defaultColor}; font-size: 16px;"></i>`,
         className: 'custom-div-icon',
         iconSize: [16, 16],
         iconAnchor: [8, 16],
