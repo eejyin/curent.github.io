@@ -8,6 +8,7 @@ This repository contains the source code for the LTB project website. The site i
 
 - Removed the `tests` and `docs` folders from the root directory.
 - Added a citation feature by including `assets/js/citation.js` and revising `_includes/scripts.html`, but it did not work as expected.
+- Sorted the showcases by time descending in the `showcases` collection.
 - Added an impact map to the home page (see `index.html`), based on the Leaflet library.
 - Updated configuration files `_config.yml` and `_data/navigation.yml`.
 - Added other pages and materials.
