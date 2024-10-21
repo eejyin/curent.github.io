@@ -92,6 +92,25 @@ function getCustomIcon(markerSymbol, markerColor) {
     });
 }
 
+// Function to map the numeric "info" values to meaningful strings
+function getInfoString(infoCodes) {
+    const infoMap = {
+        '0': 'Sponsor',
+        '1': 'Developer',
+        '2': 'Contract User',
+        '3': 'Publication User',
+        '4': 'General User'
+    };
+
+    // If infoCodes is empty, default to "General User"
+    if (!infoCodes) {
+        return infoMap['4'];
+    }
+
+    // Split the info codes, map to labels, and join as a string
+    return infoCodes.split(',').map(code => infoMap[code.trim()] || 'General User').join(', ');
+}
+
 // Load CSV data using PapaParse
 Papa.parse('/assets/data/mapdata.csv', {
     download: true,
@@ -103,7 +122,8 @@ Papa.parse('/assets/data/mapdata.csv', {
             let latlng = [parseFloat(entry.latitude), parseFloat(entry.longitude)];
             let markerSymbol = entry['marker-symbol'];
             let markerColor = entry['marker-color'];
-            let popupContent = `<b>${entry.name}</b><br>${entry.info}`;
+            let infoString = getInfoString(entry.info);  // Use getInfoString to map info codes
+            let popupContent = `<b>${entry.name}</b><br>${infoString}`;
 
             let icon = getCustomIcon(markerSymbol, markerColor);
             L.marker(latlng, { icon: icon }).bindPopup(popupContent).addTo(map);
