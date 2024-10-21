@@ -62,19 +62,19 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 function getCustomIcon(markerSymbol, markerColor) {
     let iconClass;
     switch (markerSymbol) {
-        case 'university':
-            iconClass = 'fas fa-university';
-            break;
-        case 'company':
-            iconClass = 'fas fa-building';
-            break;
-        case 'lab':
-            iconClass = 'fas fa-flask';
-            break;
-        case 'headquarters':
+        case '0':  // headquarter
             iconClass = 'fas fa-star';
             break;
-        default:
+        case '1':  // university
+            iconClass = 'fas fa-university';
+            break;
+        case '2':  // lab
+            iconClass = 'fas fa-flask';
+            break;
+        case '3':  // company
+            iconClass = 'fas fa-building';
+            break;
+        default:  // default to map marker
             iconClass = 'fas fa-map-marker-alt';
     }
 
