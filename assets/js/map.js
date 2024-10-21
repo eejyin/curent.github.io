@@ -30,7 +30,7 @@
  * 
  * Usage:
  * - Ensure this script is linked in the HTML file (e.g., index.html).
- * - Provide the CSV file in the expected format and location (default: /assets/mapdata.csv).
+ * - Provide the CSV file in the expected format and location (default: /assets/data/mapdata.csv).
  * - Customize marker icons and colors by editing the `getCustomIcon` function.
  * 
  * Example:
@@ -88,7 +88,7 @@ function getCustomIcon(markerSymbol, markerColor) {
 }
 
 // Load CSV data using PapaParse
-Papa.parse('/assets/mapdata.csv', {
+Papa.parse('/assets/data/mapdata.csv', {
     download: true,
     header: true,
     complete: function(results) {
