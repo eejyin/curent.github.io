@@ -37,10 +37,8 @@ body:
     id: affiliation-type
     attributes:
       label: Affiliation Type
-    options:
-      - "1 for university"
-      - "2 for lab"
-      - "3 for company"
-      - "4 for non-profit"
-    validations:
-      required: false
+      options:
+        - "1 for university"
+        - "2 for lab"
+        - "3 for company"
+        - "4 for non-profit"
