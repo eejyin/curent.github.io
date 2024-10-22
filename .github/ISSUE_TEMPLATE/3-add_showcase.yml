@@ -1,10 +1,11 @@
 name: Add Showcase
-description: Use this template to add a new showcase page for research using LTB.
+description: Use this template to add a new showcase page for a project using LTB.
 body:
   - type: markdown
     attributes:
       value: |
         Suggested issue name: Add Showcase: [Your Showcase Title Here]
+        An example can be [ev-deliverable-provision-of-sfr.md](./_showcase/ev-deliverable-provision-of-sfr.md)
 
   - type: textarea
     id: name
