@@ -111,6 +111,14 @@ function getInfoString(infoCodes) {
     return infoCodes.split(',').map(code => infoMap[code.trim()] || 'General User').join(', ');
 }
 
+// Function to format DOIs as plain text
+function getDOIString(dois) {
+    if (!dois) return '';  // Return empty string if there are no DOIs
+
+    const doiList = dois.split(',').map(doi => doi.trim());
+    return `<br><b>DOIs:</b> ` + doiList.map(doi => `<a href="https://doi.org/${doi}" target="_blank">${doi}</a>`).join(', ');
+}
+
 // Load CSV data using PapaParse
 Papa.parse('/assets/data/mapdata.csv', {
     download: true,
@@ -123,7 +131,10 @@ Papa.parse('/assets/data/mapdata.csv', {
             let markerSymbol = entry['marker-symbol'];
             let markerColor = entry['marker-color'];
             let infoString = getInfoString(entry.info);  // Use getInfoString to map info codes
-            let popupContent = `<b>${entry.name}</b><br>${infoString}`;
+            let doiString = getDOIString(entry.dois);    // Use getDOIString to format DOIs if present
+
+            // Build the popup content in the desired format
+            let popupContent = `<b>Name:</b> ${entry.name}<br><b>Type:</b> ${infoString}${doiString}`;
 
             let icon = getCustomIcon(markerSymbol, markerColor);
             L.marker(latlng, { icon: icon }).bindPopup(popupContent).addTo(map);
