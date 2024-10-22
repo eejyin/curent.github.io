@@ -1,0 +1,56 @@
+{
+  "description": "This file contains the DOIs that cite the paper but did not explicitly use it.",
+  "sections": [
+    {
+      "name": "LTB",
+      "reference": "10.1109/MPE.2019.2959054",
+      "last_updated": "2024-10-21",
+      "source": "IEEE Xplore Citations",
+      "dois": [
+        "10.1109/ISGTEUROPE56780.2023.10407209",
+        "10.1109/OAJPE.2022.3223656",
+        "10.1109/PESGM48719.2022.9916815",
+        "10.1109/TNET.2022.3155475",
+        "10.1109/NAPS52732.2021.9654710",
+        "10.1016/j.segan.2024.101331",
+        "10.3390/su13169423",
+        "10.3390/app11083709",
+        "10.2221/jcsj.56.243"
+      ]
+    },
+    {
+      "name": "ANDES",
+      "reference": "10.1109/TPWRS.2020.3017019",
+      "last_updated": "2024-10-21",
+      "source": "IEEE Xplore Citations",
+      "dois": [
+        "10.1007/s40518-024-00238-5",
+        "10.1016/j.epsr.2024.110734",
+        "10.3390/electronics13050870",
+        "10.1049/gtd2.12805",
+        "10.1007/s00521-022-07088-6",
+        "10.1109/OAJPE.2022.3197220",
+        "10.1109/TSG.2022.3222323",
+        "10.1109/OAJPE.2024.3366117",
+        "10.1109/DESTION62938.2024.00016"
+      ]
+    },
+    {
+      "name": "DiME and AGVis",
+      "reference": "10.1109/NAPS58826.2023.10318583",
+      "last_updated": "2024-10-21",
+      "source": "IEEE Xplore Citations",
+      "dois": [
+        "10.1109/ISGTEUROPE56780.2023.10407209",
+        "10.1109/OAJPE.2022.3223656",
+        "10.1109/PESGM48719.2022.9916815",
+        "10.1109/TNET.2022.3155475",
+        "10.1109/NAPS52732.2021.9654710",
+        "10.1016/j.segan.2024.101331",
+        "10.3390/su13169423",
+        "10.3390/app11083709",
+        "10.2221/jcsj.56.243"
+      ]
+    }
+  ]
+}
