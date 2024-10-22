@@ -4,7 +4,7 @@ uid,name,latitude,longitude,marker-symbol,marker-color,info,dois
 0003,Mississippi State University,33.454,-88.789,1,,"1, 3","10.1109/PESGM51994.2024.10688809, 10.1109/KPEC58008.2023.10215428",
 0004,University of Denver,39.6783,-104.9622,1,,"2, 3","10.1109/TPWRS.2022.3232759",
 0005,National Renewable Energy Laboratory,39.742,-105.2135,2,,"2, 3","10.1109/TSG.2021.3118292, 10.1109/PVSC43889.2021.9518779",
-0006,Pacific Northwest National Laboratory,46.3432,-119.2763,2,,"3","10.1109/NAECON58068.2023.10365910",
+0006,Pacific Northwest National Laboratory,46.3432,-119.2763,2,,"3","10.48550/arXiv.2403.07988, 10.1109/NAECON58068.2023.10365910",
 0007,Lawrence Livermore National Laboratory,37.69,-121.71,2,,"2",,
 0008,Universidad Nacional Autónoma de México,19.322,-99.186,1,,"3",,
 0009,University of Washington,47.6541,-122.3080,1,,"3","10.1109/TPWRS.2023.3259960, 10.1109/TPWRS.2022.3176525",
