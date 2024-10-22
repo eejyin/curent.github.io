@@ -1,11 +1,10 @@
 name: Add Affiliation to LTB Map
 description: Use this template to request adding your affiliation to the LTB map.
+title: 'Add Affiliation to LTB Map: [Your Affiliation Name Here]'
 body:
   - type: markdown
     attributes:
-      value: |
-        Please provide the details of your affiliation to be added to the LTB map.
-        Ensure all information is accurate and complete.
+      value: Please provide the details of your affiliation.
 
   - type: textarea
     id: name
