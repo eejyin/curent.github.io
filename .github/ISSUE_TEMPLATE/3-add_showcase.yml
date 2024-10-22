@@ -32,16 +32,25 @@ body:
     validations:
       required: false
 
-  - type: dropdown
+  - type: checkboxes
     id: categories
     attributes:
       label: Categories
-      description: The categories for the showcase.
+      description: The categories that best describe your showcase, select all that apply.
       options:
-        - research
-        - presentation
+        - label: "research (if the showcase is based on research)"
+          required: false
+        - label: "presentation (if the showcase is a presentation)"
+          required: false
     validations:
-      required: true
+      required: false
+
+  - type: input
+    id: additional_categories
+    attributes:
+      label: Additional Categories
+      description: Add any additional categories that are not listed above.
+      placeholder: "Enter additional categories separated by commas"
 
   - type: checkboxes
     id: tags
@@ -49,15 +58,15 @@ body:
       label: Tags
       description: Select relevant tags for the showcase.
       options:
-        - DER
-        - frequency support
-        - cosimulation
-        - overview
-        - video
-        - conference
-        - journal
-        - IBR
-        - scheduling
+        - label: DER
+        - label: frequency support
+        - label: cosimulation
+        - label: overview
+        - label: video
+        - label: conference
+        - label: journal
+        - label: IBR
+        - label: scheduling
 
   - type: input
     id: additional_tags
