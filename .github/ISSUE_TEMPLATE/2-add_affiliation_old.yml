@@ -1,4 +1,4 @@
-name: Add Affiliation to LTB Map
+name: Add Affiliation to LTB Map (Old and Deprecated)
 description: Use this template to request adding your affiliation to the LTB map.
 body:
   - type: markdown

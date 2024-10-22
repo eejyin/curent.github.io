@@ -1,4 +1,4 @@
-name: Add Showcase
+name: Add Showcase (Old and Deprecated)
 description: Use this template to add a new showcase page for research using LTB.
 body:
   - type: markdown
