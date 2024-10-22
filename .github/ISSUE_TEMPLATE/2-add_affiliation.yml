@@ -4,42 +4,40 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please provide the details of your affiliation to be added to the LTB map. Ensure all information is accurate and complete.
+        Please provide the details of your affiliation to be added to the LTB map.
+        Ensure all information is accurate and complete.
 
-  - type: input
+  - type: textarea
     id: name
     attributes:
       label: Name
       description: |
-        Enter the name of the affiliation (e.g., University of Tennessee Knoxville).
-        (Commas in the name will be removed to avoid parsing issues; hyphens are okay.)
+        Enter the name of the affiliation, e.g., University of Tennessee Knoxville.
+        Commas in the name will be removed to avoid parsing issues, but hyphens are okay.
     validations:
-      required: true
+      required: false
 
   - type: input
-    id: latitude
+    id: Latitude
     attributes:
-      label: Latitude
-      description: |
-        Enter the latitude coordinate (e.g., 35.9517).
+      label: Description of the unexpected behavior
+      description: Enter the latitude coordinate, e.g., 35.9517
     validations:
-      required: true
+      required: false
 
   - type: input
-    id: longitude
+    id: Longitude
     attributes:
       label: Longitude
-      description: |
-        Enter the longitude coordinate (e.g., -83.9300).
+      description: Enter the longitude coordinate, e.g., -83.9300
     validations:
-      required: true
+      required: false
 
   - type: dropdown
-    id: marker-symbol
+    id: affiliation-type
     attributes:
-      label: Marker Symbol
-      description: |
-        Select the affiliation type.
+      label: Affiliation Type
+      description: Select the affiliation type
     options:
       - university
       - lab
@@ -47,25 +45,3 @@ body:
       - non-profit
     validations:
       required: false
-
-  - type: input
-    id: new-affiliation-type
-    attributes:
-      label: New Affiliation Type
-      description: |
-        If you want to add a new affiliation type that is not listed above, please specify it here.
-    validations:
-      required: false
-
-  - type: dropdown
-    id: info
-    attributes:
-      label: Additional Information
-      description: |
-        Provide additional information about the affiliation (e.g., Sponsor, Developer, Publication).
-    options:
-      - Sponsor (has research projects or contracts with LTB)
-      - Developer (has contributed to the LTB codebase)
-      - Publication (has published research that used LTB)
-    validations:
-      required: true
