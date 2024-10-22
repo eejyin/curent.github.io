@@ -1,11 +1,13 @@
-name: Add Affiliation to LTB Map
-description: Use this template to request adding your affiliation to the LTB map.
+name: Bug Report 2
+description: For testing purpose only.
 body:
   - type: markdown
     attributes:
       value: |
-        Please provide the details of your affiliation to be added to the LTB map.
-        Ensure all information is accurate and complete.
+        This repository is developed from the Jekyll theme Minimal Mistakes. Here, we mainly focus on the
+        content of the LTB website. If you have found a bug in the content, please fill out the form below.
+        For bugs related to the theme, please visit the
+        [Minimal Mistakes issue tracker](https://github.com/mmistakes/minimal-mistakes/issues).
 
   - type: textarea
     id: typo-description

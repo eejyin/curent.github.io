@@ -78,6 +78,10 @@ function getCustomIcon(markerSymbol, markerColor) {
             iconClass = 'fas fa-building';
             defaultColor = '#AA6C39';
             break;
+        case '4':  // non-profit
+            iconClass = 'fas fa-hands-helping';
+            defaultColor = '#4CAF50';
+            break;
         default:  // default to map marker
             iconClass = 'fas fa-map-marker-alt';
             defaultColor = '#7992B1';
