@@ -5,3 +5,12 @@ body:
     attributes:
       value: |
         Suggested issue name: Add Showcase: [Your Showcase Title Here]
+
+  - type: textarea
+    id: name
+    attributes:
+      label: Name
+      description: |
+        Enter the name of the showcase affiliation, e.g., University of Tennessee, Knoxville.
+    validations:
+      required: false
