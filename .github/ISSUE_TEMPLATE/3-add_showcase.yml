@@ -147,3 +147,12 @@ body:
       placeholder: "University of Tennessee, Knoxville"
     validations:
       required: false
+
+  - type: input
+    id: additional_details
+    attributes:
+      label: Additional Details
+      description: Any additional details you would like to provide.
+      placeholder: "Enter additional details here"
+    validations:
+      required: false
