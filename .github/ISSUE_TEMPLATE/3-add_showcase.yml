@@ -5,13 +5,128 @@ body:
     attributes:
       value: |
         Suggested issue name: Add Showcase: [Your Showcase Title Here]
-        An example can be [ev-deliverable-provision-of-sfr.md](https://github.com/CURENT/curent.github.io/blob/master/_showcase/ev-deliverable-provision-of-sfr.md)
+        An example can be ev-deliverable-provision-of-sfr.md
 
-  - type: textarea
-    id: name
+  - type: markdown
     attributes:
-      label: Name
-      description: |
-        Enter the name of the showcase affiliation, e.g., University of Tennessee, Knoxville.
+      value: |
+        You are encouraged to open a pull request to add the showcase page directly to this repository.
+        But if you are not familiar with the process, you can use this issue template to request adding
+        a showcase page.
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title of the showcase.
+      placeholder: "EV Deliverable Provision of SFR"
     validations:
       required: false
+
+  - type: textarea
+    id: excerpt
+    attributes:
+      label: Excerpt
+      description: A brief description of the showcase.
+      placeholder: "A control strategy for EV aggregation to provide SFR while respecting charging time constraints."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: categories
+    attributes:
+      label: Categories
+      description: The categories for the showcase.
+      options:
+        - research
+        - presentation
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Tags
+      description: Select relevant tags for the showcase.
+      options:
+        - DER
+        - frequency support
+        - cosimulation
+        - overview
+        - video
+        - conference
+        - journal
+        - IBR
+        - scheduling
+
+  - type: input
+    id: additional_tags
+    attributes:
+      label: Additional Tags
+      description: Add any additional tags that are not listed above.
+      placeholder: "Enter additional tags separated by commas"
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: The publishing date of the showcase.
+      placeholder: "2023-05-01"
+    validations:
+      required: true
+
+  - type: input
+    id: last_modified_at
+    attributes:
+      label: Last Modified Date
+      description: The last modified date of the showcase.
+      placeholder: "2024-10-19"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: has_images
+    attributes:
+      label: Do you have image(s) to include in this showcase?
+      description: Select 'Yes' if you have images to include.
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        If you selected 'Yes' above, please send your images to the LTB maintainer with the following details:
+
+        **Email Title**: "Showcase Image Submission - [Title of the Showcase]"
+
+        **Email Body**:
+        - Title of the showcase, if an ISSUE or PR is created, please include the link
+        - Your name
+        - Your affiliation
+        - Brief description of the images
+        - Title(s) of the image(s) [optional]
+
+  - type: textarea
+    id: citation
+    attributes:
+      label: Recommended Citation
+      description: The recommended citation for the showcase. IEEE style is preferred.
+      placeholder: |
+        J. Wang et al., "Electric Vehicles Charging Time Constrained Deliverable Provision of Secondary Frequency Regulation," in IEEE Transactions on Smart Grid, vol. 15, no. 4, pp. 3892-3903, July 2024, doi: 10.1109/TSG.2024.3356948.
+
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor
+      description: The name of the showcase contributor.
+      placeholder: "Jinning Wang"
+
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: The affiliation of the contributor.
+      placeholder: "University of Tennessee, Knoxville"
