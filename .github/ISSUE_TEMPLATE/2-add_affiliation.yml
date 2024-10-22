@@ -51,17 +51,22 @@ body:
     validations:
       required: false
 
-  - type: dropdown
+  - type: checkboxes
     id: usage-info
     attributes:
       label: Usage Information
       description: Select all that apply, how you use the LTB.
       options:
-        - "0 for Sponsor"
-        - "1 for Developer"
-        - "2 for Contract User"
-        - "3 for Publication User"
-        - "4 for General User"
+        - label: "0 for Sponsor"
+          required: false
+        - label: "1 for Developer"
+          required: false
+        - label: "2 for Contract User"
+          required: false
+        - label: "3 for Publication User"
+          required: false
+        - label: "4 for General User"
+          required: false
 
     validations:
       required: false
