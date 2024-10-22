@@ -20,7 +20,7 @@ body:
   - type: input
     id: Latitude
     attributes:
-      label: Description of the unexpected behavior
+      label: Latitude
       description: Enter the latitude coordinate, e.g., 35.9517
     validations:
       required: false
@@ -42,3 +42,39 @@ body:
         - "2 for lab"
         - "3 for company"
         - "4 for non-profit"
+
+  - type: input
+    id: new-affiliation-type
+    attributes:
+      label: New Affiliation Type
+      description: None of above affiliation types? Please specify here.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: usage-info
+    attributes:
+      label: Usage Information
+      description: Select all that apply, how you use the LTB.
+      options:
+        - "0 for Sponsor"
+        - "1 for Developer"
+        - "2 for Contract User"
+        - "3 for Publication User"
+        - "4 for General User"
+
+    validations:
+      required: false
+
+  - type: textarea
+    id: dois
+    attributes:
+      label: DOIs
+      description: |
+        If you have publications using LTB, let us know! Multiple DOIs
+        should be separated by commas. For example: 
+        10.1109/ABCD.1234.56789
+        or
+        10.1109/ABCD.1234.56789, 10.1109/ABCD.4321.98765
+    validations:
+      required: false
