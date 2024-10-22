@@ -1,0 +1,35 @@
+name: Bug Report 2
+description: For testing purpose only.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is developed from the Jekyll theme Minimal Mistakes. Here, we mainly focus on the
+        content of the LTB website. If you have found a bug in the content, please fill out the form below.
+        For bugs related to the theme, please visit the
+        [Minimal Mistakes issue tracker](https://github.com/mmistakes/minimal-mistakes/issues).
+
+  - type: textarea
+    id: typo-description
+    attributes:
+      label: Description of the typo or inaccurate information
+      description: |
+        Describe the typo or inaccurate information with the following details:
+
+        - What is the incorrect information?
+        - What is the correct information?
+        - Where is the typo located? (e.g., page URL, section, paragraph)
+    validations:
+      required: false
+
+  - type: textarea
+    id: unexpected-behavior
+    attributes:
+      label: Description of the unexpected behavior
+      description: |
+        Describe the unexpected behavior with the following details:
+
+        - What did you expect to happen?
+        - What actually happened?
+    validations:
+      required: false
