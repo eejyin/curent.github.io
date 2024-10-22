@@ -5,7 +5,7 @@ body:
     attributes:
       value: |
         Suggested issue name: Add Showcase: [Your Showcase Title Here]
-        An example can be [ev-deliverable-provision-of-sfr.md](./../bolb/master/_showcase/ev-deliverable-provision-of-sfr.md)
+        An example can be [ev-deliverable-provision-of-sfr.md](https://github.com/CURENT/curent.github.io/blob/master/_showcase/ev-deliverable-provision-of-sfr.md)
 
   - type: textarea
     id: name
