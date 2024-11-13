@@ -35,6 +35,6 @@ Click [here](https://github.com/CURENT/demo/blob/master/demo/data/case/ieee123_a
 
 Click [here](https://github.com/CURENT/demo/blob/master/demo/data/case/ieee123_ams_REGCV1.xlsx) to downlaod the [AMS](https://ltb.readthedocs.io/projects/ams/en/latest/) case file, which consatins the economic data used for demonstration.
 
-## Contributor
+## Recommended Citation
 
-This showcase is contributed by Buxin She.
+B. She, F. Li, J. Wang, H. Cui, X. Wang and R. Bo, "Virtual Inertia Scheduling (VIS) for Microgrids with Static and Dynamic Security Constraints," in IEEE Transactions on Sustainable Energy, doi: 10.1109/TSTE.2024.3481239.
