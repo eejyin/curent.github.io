@@ -1,10 +1,18 @@
 name: Add Showcase
-description: Use this template to add a new showcase page for research using LTB.
+description: Use this template to add a new showcase page for a project using LTB.
 body:
   - type: markdown
     attributes:
       value: |
-        Please provide the details for the new showcase page below. Make sure to follow the format and include all necessary information.
+        Suggested issue name: Add Showcase: [Your Showcase Title Here]
+        An example can be ev-deliverable-provision-of-sfr.md
+
+  - type: markdown
+    attributes:
+      value: |
+        You are encouraged to open a pull request to add the showcase page directly to this repository.
+        But if you are not familiar with the process, you can use this issue template to request adding
+        a showcase page.
 
   - type: input
     id: title
@@ -12,7 +20,7 @@ body:
       label: Title
       description: The title of the showcase.
       placeholder: "EV Deliverable Provision of SFR"
-    validation:
+    validations:
       required: false
 
   - type: textarea
@@ -21,19 +29,28 @@ body:
       label: Excerpt
       description: A brief description of the showcase.
       placeholder: "A control strategy for EV aggregation to provide SFR while respecting charging time constraints."
-    validation:
+    validations:
       required: false
 
-  - type: dropdown
+  - type: checkboxes
     id: categories
     attributes:
       label: Categories
-      description: The categories for the showcase.
+      description: The categories that best describe your showcase, select all that apply.
       options:
-        - research
-        - presentation
+        - label: "research (if the showcase is based on research)"
+          required: false
+        - label: "presentation (if the showcase is a presentation)"
+          required: false
     validations:
-      required: true
+      required: false
+
+  - type: input
+    id: additional_categories
+    attributes:
+      label: Additional Categories
+      description: Add any additional categories that are not listed above.
+      placeholder: "Enter additional categories separated by commas"
 
   - type: checkboxes
     id: tags
@@ -41,15 +58,15 @@ body:
       label: Tags
       description: Select relevant tags for the showcase.
       options:
-        - DER
-        - frequency support
-        - cosimulation
-        - overview
-        - video
-        - conference
-        - journal
-        - IBR
-        - scheduling
+        - label: DER
+        - label: frequency support
+        - label: cosimulation
+        - label: overview
+        - label: video
+        - label: conference
+        - label: journal
+        - label: IBR
+        - label: scheduling
 
   - type: input
     id: additional_tags
@@ -65,7 +82,7 @@ body:
       description: The publishing date of the showcase.
       placeholder: "2023-05-01"
     validations:
-      required: true
+      required: false
 
   - type: input
     id: last_modified_at
@@ -74,7 +91,7 @@ body:
       description: The last modified date of the showcase.
       placeholder: "2024-10-19"
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: has_images
@@ -82,15 +99,15 @@ body:
       label: Do you have image(s) to include in this showcase?
       description: Select 'Yes' if you have images to include.
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:
       value: |
-        If you selected 'Yes' above, please send your images to the LTB maintainer with following details:
+        If you selected 'Yes' above, please send your images to the LTB maintainer with the following details:
 
         **Email Title**: "Showcase Image Submission - [Title of the Showcase]"
 
@@ -100,6 +117,8 @@ body:
         - Your affiliation
         - Brief description of the images
         - Title(s) of the image(s) [optional]
+    validations:
+      required: false
 
   - type: textarea
     id: citation
@@ -108,6 +127,8 @@ body:
       description: The recommended citation for the showcase. IEEE style is preferred.
       placeholder: |
         J. Wang et al., "Electric Vehicles Charging Time Constrained Deliverable Provision of Secondary Frequency Regulation," in IEEE Transactions on Smart Grid, vol. 15, no. 4, pp. 3892-3903, July 2024, doi: 10.1109/TSG.2024.3356948.
+    validations:
+      required: false
 
   - type: input
     id: contributor
@@ -115,6 +136,8 @@ body:
       label: Contributor
       description: The name of the showcase contributor.
       placeholder: "Jinning Wang"
+    validations:
+      required: false
 
   - type: input
     id: affiliation
@@ -122,3 +145,14 @@ body:
       label: Affiliation
       description: The affiliation of the contributor.
       placeholder: "University of Tennessee, Knoxville"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional Details
+      description: Any additional details you would like to provide.
+      placeholder: "Enter additional details here"
+    validations:
+      required: false

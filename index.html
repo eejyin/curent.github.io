@@ -166,74 +166,7 @@ feature_row:
     <h2>Partners & Users</h2>
     <div id="map" style="height: 600px; width: 1200px; margin: 0 auto; border: 1px solid #ccc;"></div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-      <script>
-          // Initialize the map with a global view
-          var map = L.map('map', {
-              center: [20, 0],
-              zoom: 2,
-              worldCopyJump: true,
-              maxBounds: [
-                  [-90, -180],
-                  [90, 180]
-              ]
-          });
-      
-          // Add a tile layer to the map (OpenStreetMap tiles)
-          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          }).addTo(map);
-      
-          // Function to get custom icons
-          function getCustomIcon(markerSymbol, markerColor) {
-              let iconClass;
-              switch (markerSymbol) {
-                  case 'university':
-                      iconClass = 'fas fa-university';
-                      break;
-                  case 'company':
-                      iconClass = 'fas fa-building';
-                      break;
-                  case 'lab':
-                      iconClass = 'fas fa-flask';
-                      break;
-                  case 'headquarters':
-                      iconClass = 'fas fa-star';
-                      break;
-                  default:
-                      iconClass = 'fas fa-map-marker-alt';
-              }
-      
-              return L.divIcon({
-                  html: `<i class="${iconClass}" style="color: ${markerColor || '#7992B1'}; font-size: 16px;"></i>`,
-                  className: 'custom-div-icon',
-                  iconSize: [16, 16],
-                  iconAnchor: [8, 16],
-                  popupAnchor: [0, -16]
-              });
-          }
-      
-          // Load CSV data using PapaParse
-          Papa.parse('/assets/mapdata.csv', {
-              download: true,
-              header: true,
-              complete: function(results) {
-                  let data = results.data;
-      
-                  data.forEach(entry => {
-                      let latlng = [parseFloat(entry.latitude), parseFloat(entry.longitude)];
-                      let markerSymbol = entry['marker-symbol'];
-                      let markerColor = entry['marker-color'];
-                      let popupContent = `<b>${entry.name}</b><br>${entry.info}`;
-      
-                      let icon = getCustomIcon(markerSymbol, markerColor);
-                      L.marker(latlng, { icon: icon }).bindPopup(popupContent).addTo(map);
-                  });
-              },
-              error: function(error) {
-                  console.error('Error loading CSV data:', error);
-              }
-          });
-      </script>
+      <script src="/assets/js/map.js"></script>
     </div>
 
     <div class="logo-container">
@@ -256,11 +189,14 @@ feature_row:
 
     <div class="logo-container">
       <div class="partner-logo2">
-        <img src="/assets/images/logos/OSU.png" alt="Oklahoma State University">
+        <img src="https://brand.ncsu.edu/img/downloads/logo-03.jpg" alt="NCSU">
       </div>
       <div class="partner-logo2">
         <img src="/assets/images/logos/MSU.png" alt="Mississippi State University">
       </div>
+    </div>
+
+    <div class="logo-container">
       <div class="partner-logo2">
         <img src="/assets/images/logos/MST.png" alt="Missouri S&T">
       </div>
@@ -279,15 +215,21 @@ feature_row:
       <div class="partner-logo2">
         <img src="/assets/images/logos/NREL.jpeg" alt="National Renewable Energy Laboratory">
       </div>
+    </div>
+
+    <div class="logo-container">
+      <div class="partner-logo2">
+        <img src="/assets/images/logos/OSU.png" alt="Oklahoma State University">
+      </div>
       <div class="partner-logo2">
         <img src="/assets/images/logos/PNNL3.png" alt="Pacific Northwest National Laboratory">
       </div>
     </div>
 
     <p style="margin-top: 20px;">
-      If you want to add your point on the map, please open an issue using the template
-      <strong><a href="https://github.com/CURENT/curent.github.io/issues">Add Affiliation to LTB Map</a></strong>.
-    </p>
+      If you want to add your map point or logo, please open an issue using the template
+      <strong><a href="https://github.com/CURENT/curent.github.io/issues">Add Affiliation to LTB</a></strong>.
+    </p>    
 
   </div>
 </div>

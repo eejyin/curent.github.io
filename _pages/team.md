@@ -118,13 +118,13 @@ author_profile: false
         <img src="/assets/images/teams/NParsly.jpeg" alt="NParsly">
         <h3><a href="https://www.linkedin.com/in/nicholas-parsly-093076220/" target="_blank">Nicholas Parsly</a></h3>
         <p>DiME and AGVis development (2022-2023)</p>
-        <p>Alumni of University of Tennessee, Knoxville</p>
+        <p>Alum of University of Tennessee, Knoxville</p>
       </div>
       <div class="team-member">
         <img src="/assets/images/teams/NWest.jpeg" alt="NWest">
         <h3><a href="https://www.linkedin.com/in/nicholas-drake-west/" target="_blank">Nicholas West</a></h3>
         <p>DiME and AGVis development (2020-2022)</p>
-        <p>Alumni of University of Tennessee, Knoxville</p>
+        <p>Alum of University of Tennessee, Knoxville</p>
       </div>
     </div>
   </div>
@@ -140,19 +140,19 @@ author_profile: false
         <img src="/assets/images/teams/QZhang.jpeg" alt="QZhang">
         <h3><a href="https://www.linkedin.com/in/qiwei-zhang-12b99a153/" target="_blank">Dr. Qiwei Zhang</a></h3>
         <p>Modeling Consultant for Scheduling</p>
-        <p>Alumni of University of Tennessee, Knoxville</p>
+        <p>Alum of University of Tennessee, Knoxville</p>
       </div>
       <div class="team-member">
         <img src="/assets/images/teams/BShe.jpeg" alt="BShe">
         <h3><a href="https://shebuxin.github.io/" target="_blank">Dr. Buxin She</a></h3>
         <p>Modeling Consultant for IBR</p>
-        <p>Alumni of University of Tennessee, Knoxville</p>
+        <p>Alum of University of Tennessee, Knoxville</p>
       </div>
       <div class="team-member">
         <img src="/assets/images/teams/HShuai.jpeg" alt="HShuai">
         <h3><a href="https://sites.google.com/view/hangshuai/home?authuser=0" target="_blank">Dr. Hang Shuai</a></h3>
         <p>Modeling Consultant for Scheduling</p>
-        <p>Alumni of University of Tennessee, Knoxville</p>
+        <p>Alum of University of Tennessee, Knoxville</p>
       </div>
     </div>
   </div>

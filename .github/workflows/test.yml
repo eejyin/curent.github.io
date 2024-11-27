@@ -1,14 +1,9 @@
-name: Build and Deploy
+name: Test Build and Deploy
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
     branches:
       - master
-  workflow_dispatch: {}
-  repository_dispatch: {}
 
 permissions:
   contents: read
@@ -20,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  test-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -65,12 +60,12 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
-  deploy:
+  test-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: test-build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
