@@ -23,7 +23,7 @@ Hybrid power plants (HPPs) present a promising solution to address the significa
 ## Demonstration
 
 <figure>
-  <img src="/assets/images/showcase/hpp-providing-sfr/HPP.png" alt="HPP-framework" style="width:75%;height:75%;">
+  <img src="/assets/images/showcase/hpp-providing-sfr/hpp.png" alt="HPP-framework" style="width:75%;height:75%;">
   <figcaption>Fig 1: Integrative operation framework for HPP. (from the paper)</figcaption>
 </figure>
 
