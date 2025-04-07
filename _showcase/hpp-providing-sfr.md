@@ -22,24 +22,17 @@ Hybrid power plants (HPPs) present a promising solution to address the significa
 
 ## Demonstration
 
-The multi-timescale framework comprises three modules that engage in bidirectional interaction with HPP: HPP Integrated DAUC, HPP Integrated RTED, and AGC controller, as shown in Fig. 1.
-<figure style="text-align: center;">
-  <img src="/assets/images/showcase/DrXinFang-OAJPE-Hybrid-power-plants/HPP.png" alt="HPP-framework" style="width:50%;height:50%;">
-  <figcaption>Fig 1: Integrative operation framework for HPP</figcaption>
+<figure>
+  <img src="/assets/images/showcase/hpp-providing-sfr/hpp.png" alt="HPP-framework" style="width:75%;height:75%;">
+  <figcaption>Fig 1: Integrative operation framework for HPP. (from the paper)</figcaption>
 </figure>
 
 To validate the effectiveness of the proposed framework, case studies are performed on the modified IEEE 39-bus system with three HPPs, as shown in Fig. 2
 
-<figure style="text-align: center;">
-  <img src="/assets/images/showcase/DrXinFang-OAJPE-Hybrid-power-plants/IEEE39.png" alt="HPP-IEEE39" style="width:50%;height:50%;">
-  <figcaption>Fig 2: Modified IEEE 39-bus test system</figcaption>
+<figure>
+  <img src="/assets/images/showcase/hpp-providing-sfr/IEEE39.png" alt="HPP-IEEE39" style="width:75%;height:75%;">
+  <figcaption>Fig 2: Modified IEEE 39-bus test system. (from the paper)</figcaption>
 </figure>
-
-## Case file
-
-Click [here](https://github.com/CURENT/demo/blob/master/demo/data/case/ieee123_andes_REGCV1.xlsx) to downlaod the [ANDES](https://docs.andes.app/en/latest/) case file, which consatins the complete dynamic parameters used for demonstration.
-
-Click [here](https://github.com/CURENT/demo/blob/master/demo/data/case/ieee123_ams_REGCV1.xlsx) to downlaod the [AMS](https://ltb.readthedocs.io/projects/ams/en/latest/) case file, which consatins the economic data used for demonstration.
 
 ## Recommended Citation
 
