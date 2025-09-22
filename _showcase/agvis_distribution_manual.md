@@ -1,4 +1,19 @@
-# Manual Update: Displaying a Distribution System in AGVis
+---
+layout: single
+title: "Displaying a Distribution System in AGVis"
+excerpt: ""
+categories:
+  - presentation
+tags:
+  - overview
+  - video
+share: true
+related: true
+date: 2025-09-22
+last_modified_at: 2025-09-22
+comments: true
+show_date: true
+---
 
 This update adds a lightweight, file-based path to visualize a distribution grid in AGVis—no ANDES or DiME required. It leverages AGVis’s **MultiLayer** feature to load nodes (buses) and lines directly from an Excel workbook. This complements our existing LTB visualization workflows showcased previously.
 
