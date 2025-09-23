@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Displaying a Distribution System in AGVis"
-excerpt: ""
+excerpt: "A lightweight, file-based path to visualize a distribution grid in AGVis"
 categories:
   - presentation
 tags:
